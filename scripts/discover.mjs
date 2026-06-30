@@ -237,8 +237,13 @@ async function fetchRedditRepos() {
   
   for (const sub of REDDIT_SUBS) {
     try {
-      const url = `https://www.reddit.com/r/${sub}/hot.json?limit=25`;
-      const resp = await fetch(url, { headers: { 'User-Agent': 'trey-tools/1.0' } });
+      const url = `https://old.reddit.com/r/${sub}/hot.json?limit=25&raw_json=1`;
+      const resp = await fetch(url, { 
+        headers: { 
+          'User-Agent': 'Mozilla/5.0 (compatible; trey-tools/1.0; +https://github.com/treyxu23/trey-tools)',
+          'Accept': 'application/json',
+        }
+      });
       if (!resp.ok) {
         console.log(`  r/${sub}: HTTP ${resp.status}`);
         continue;
