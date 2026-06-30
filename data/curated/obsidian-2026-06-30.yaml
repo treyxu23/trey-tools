@@ -1,0 +1,338 @@
+# Obsidian 公众号文章自动提取 — 2026-06-30
+# 已验证仓库存在
+
+---
+slug: lsdefine-genericagent
+name: GenericAgent
+repo: lsdefine/GenericAgent
+description: >-
+  Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption
+category: web
+tags: [ai-agent]
+added: 2026-06-30
+source: curated
+featured: false
+
+---
+slug: mvanhorn-last30days-skill
+name: last30days-skill
+repo: mvanhorn/last30days-skill
+description: >-
+  AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary
+category: web
+tags: []
+added: 2026-06-30
+source: curated
+featured: false
+
+---
+slug: linshenkx-prompt-optimizer
+name: prompt-optimizer
+repo: linshenkx/prompt-optimizer
+description: >-
+  An AI prompt optimizer for writing better prompts and getting better AI results.
+category: web
+tags: [ai-chat]
+added: 2026-06-30
+source: curated
+featured: false
+
+---
+slug: sansan0-trendradar
+name: TrendRadar
+repo: SANSAN0/TrendRadar
+description: >-
+  ⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。
+category: web
+tags: [ai-coding, ai-chat]
+added: 2026-06-30
+source: curated
+featured: false
+
+---
+slug: ginobefun-bestblogs
+name: BestBlogs
+repo: ginobefun/BestBlogs
+description: >-
+  bestblogs.dev - 汇集顶级编程、人工智能、产品、科技文章，大语言模型摘要评分辅助阅读，探索编程和技术未来
+category: web
+tags: [ai-coding]
+added: 2026-06-30
+source: curated
+featured: false
+
+---
+slug: bitbonsai-mcpvault
+name: mcpvault
+repo: bitbonsai/mcpvault
+description: >-
+  A lightweight Model Context Protocol (MCP) server for safe Obsidian vault access
+category: web
+tags: []
+added: 2026-06-30
+source: curated
+featured: false
+
+---
+slug: kepano-obsidian-skills
+name: obsidian-skills
+repo: kepano/obsidian-skills
+description: >-
+  Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.
+category: cli
+tags: [dev-tools]
+added: 2026-06-30
+source: curated
+featured: false
+
+---
+slug: eugeniughelbur-obsidian-second-brain
+name: obsidian-second-brain
+repo: eugeniughelbur/obsidian-second-brain
+description: >-
+  Cross-CLI skill for Obsidian: turn your vault into a living AI-first second brain across Claude Code, Codex, Gemini, OpenCode, Hermes, and Pi. 44 commands - self-rewriting notes, local+hybrid semantic search, key-less web research, /obsidian-architect codebase docs, and scheduled agents that maintai
+category: web
+tags: [ai-agent]
+added: 2026-06-30
+source: curated
+featured: false
+
+---
+slug: yacey-agnes-ai-generation-skill
+name: agnes-ai-generation-skill
+repo: Yacey/agnes-ai-generation-skill
+description: >-
+  Agent Skill for Agnes AI text, image, and video generation APIs.
+category: web
+tags: []
+added: 2026-06-30
+source: curated
+featured: false
+
+---
+slug: kangarooking-agnes-free-model-skills
+name: agnes-free-model-skills
+repo: kangarooking/agnes-free-model-skills
+description: >-
+  Agnes AI 免费文本、图片、视频模型的 Codex/Agent Skills
+category: web
+tags: []
+added: 2026-06-30
+source: curated
+featured: false
+
+---
+slug: lcy362-agnes-video-generator
+name: agnes-video-generator
+repo: lcy362/agnes-video-generator
+description: >-
+  Open-source, self-hosted AI video generator — completely free. Text to multi-scene video with narration, subtitles, and digital anchor via Web UI, powered by Agnes AI.
+category: web
+tags: [self-hosted, ai-video]
+added: 2026-06-30
+source: curated
+featured: false
+
+---
+slug: 16nic-comfyui-agnes-ai
+name: comfyui-agnes-ai
+repo: 16nic/comfyui-agnes-ai
+description: >-
+  ComfyUI 自定义节点插件，让你在 ComfyUI 中直接调用 Agnes AI 的全模态模型。
+category: web
+tags: []
+added: 2026-06-30
+source: curated
+featured: false
+
+---
+slug: jomeswang-agnes-ai-skill
+name: agnes-ai-skill
+repo: jomeswang/agnes-ai-skill
+description: >-
+  Agnes AI skill for text, image, and video APIs with persistent auth and OpenAI-style workflows
+category: web
+tags: []
+added: 2026-06-30
+source: curated
+featured: false
+
+---
+slug: voltagent-awesome-design-md
+name: awesome-design-md
+repo: voltagent/awesome-design-md
+description: >-
+  A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.
+category: web
+tags: []
+added: 2026-06-30
+source: curated
+featured: false
+
+---
+slug: iofficeai-officecli
+name: OfficeCLI
+repo: iOfficeAI/OfficeCLI
+description: >-
+  OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.
+category: cli
+tags: [ai-agent, ai-coding, dev-tools]
+added: 2026-06-30
+source: curated
+featured: false
+
+---
+slug: lightricks-ltx-2
+name: LTX-2
+repo: Lightricks/LTX-2
+description: >-
+  Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.
+category: web
+tags: []
+added: 2026-06-30
+source: curated
+featured: false
+
+---
+slug: zhouhua-obsidian-export-image
+name: obsidian-export-image
+repo: zhouhua/obsidian-export-image
+description: >-
+  Easily convert your article to image.
+category: web
+tags: []
+added: 2026-06-30
+source: curated
+featured: false
+
+---
+slug: browser-act-skills
+name: skills
+repo: browser-act/skills
+description: >-
+  Browser automation CLI built for AI agents. Break through anti-bot walls, hand off to humans across platforms when stuck. Parallel multi-task execution, independent multi-session operation, isolated multi-account browsing.
+category: web
+tags: [ai-agent]
+added: 2026-06-30
+source: curated
+featured: false
+
+---
+slug: garrytan-gstack
+name: gstack
+repo: garrytan/gstack
+description: >-
+  Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA
+category: web
+tags: []
+added: 2026-06-30
+source: curated
+featured: false
+
+---
+slug: guanyixuan-pyjianyingdraft
+name: pyJianYingDraft
+repo: GuanYixuan/pyJianYingDraft
+description: >-
+  轻量、灵活、易上手的Python剪映草稿生成及导出工具，构建全自动化视频剪辑/混剪流水线。本项目的CapCut版本正于 https://github.com/GuanYixuan/pyCapCut 内开发
+category: web
+tags: [ai-agent]
+added: 2026-06-30
+source: curated
+featured: false
+
+---
+slug: guanyixuan-pycapcut
+name: pyCapCut
+repo: GuanYixuan/pyCapCut
+description: >-
+  A lightweight, flexible, and easy-to-use Python tool for generating and exporting CapCut drafts to build fully automated video editing/remix pipelines! Another similar project: https://github.com/GuanYixuan/pyJianYingDraft
+category: web
+tags: [ai-agent]
+added: 2026-06-30
+source: curated
+featured: false
+
+---
+slug: panniantong-agent-reach
+name: Agent-Reach
+repo: Panniantong/Agent-Reach
+description: >-
+  Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
+category: cli
+tags: [ai-agent, dev-tools]
+added: 2026-06-30
+source: curated
+featured: false
+
+---
+slug: opensensenova-sensenova-skills
+name: SenseNova-Skills
+repo: OpenSenseNova/SenseNova-Skills
+description: >-
+  Modular SenseNova skills for building AI-powered office assistants and productivity workflows
+category: web
+tags: [ai-agent]
+added: 2026-06-30
+source: curated
+featured: false
+
+---
+slug: heygen-com-hyperframes-launches
+name: hyperframes-launches
+repo: heygen-com/hyperframes-launches
+description: >-
+  Open-source HyperFrames compositions behind HeyGen's product launch videos.
+category: web
+tags: []
+added: 2026-06-30
+source: curated
+featured: false
+
+---
+slug: upload-post-avatar-mix
+name: avatar-mix
+repo: Upload-Post/avatar-mix
+description: >-
+  Generate 16:9 & 9:16 videos with your HeyGen avatar, animated backgrounds (HyperFrames), music, SFX and Hormozi captions — then publish them to every social network. Reusable skill.
+category: web
+tags: []
+added: 2026-06-30
+source: curated
+featured: false
+
+---
+slug: saranambiar-hyperframes-video-agent-skills
+name: hyperframes-video-agent-skills
+repo: saranambiar/hyperframes-video-agent-skills
+description: >-
+  Reusable skills, scripts, and production workflows for agent-led video creation with HyperFrames, FFmpeg, captions, audio sync, and render QA. Community project from real HyperFrames video work; not an official HyperFrames or HeyGen repository.
+category: web
+tags: []
+added: 2026-06-30
+source: curated
+featured: false
+
+---
+slug: trycua-cua
+name: cua
+repo: trycua/cua
+description: >-
+  Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows).
+category: desktop
+tags: [ai-agent]
+added: 2026-06-30
+source: curated
+featured: false
+
+---
+slug: hkuds-vimax
+name: ViMax
+repo: HKUDS/ViMax
+description: >-
+  "ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)"
+category: web
+tags: []
+added: 2026-06-30
+source: curated
+featured: false
