@@ -224,10 +224,10 @@ async function fetchHNShowHN() {
 // ─── 数据源四：Reddit ─────────────────────────────────────
 
 const REDDIT_SUBS = [
-  'MachineLearning',
+  'coolgithubprojects',
+  'SideProject',
   'opensource',
-  'artificial',
-  'programming',
+  'github',
 ];
 
 async function fetchRedditRepos() {
@@ -278,7 +278,7 @@ async function fetchRedditRepos() {
     } catch (e) {
       console.log(`  r/${sub}: 请求失败`);
     }
-    await new Promise(r => setTimeout(r, 1000));
+    await new Promise(r => setTimeout(r, 5000));
   }
 
   return repos;
