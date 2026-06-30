@@ -203,13 +203,22 @@ function mapTags(topics, description = '') {
 }
 
 function isRelevant(repo) {
+  const name = (repo.name || '').toLowerCase();
   const desc = (repo.description || '').toLowerCase();
   if (!desc || desc.length < 20) return false;
 
-  const skipWords = ['awesome list', 'curated list of', 'a curated list', 'awesome-', 'collection of'];
-  for (const w of skipWords) {
-    if (desc.includes(w)) return false;
+  // 过滤 Awesome List 和合集类项目
+  const skipPatterns = [
+    'awesome list', 'curated list of', 'a curated list', 'collection of lists',
+    'curated list', 'list of free', 'list of awesome', 'list of public',
+    'collective list', 'a list of',
+  ];
+  for (const p of skipPatterns) {
+    if (desc.includes(p)) return false;
   }
+
+  // 过滤名字就是 awesome- 开头的
+  if (name.startsWith('awesome-') || name.startsWith('awesome_')) return false;
 
   return true;
 }
