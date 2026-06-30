@@ -231,53 +231,47 @@ const REDDIT_SUBS = [
 ];
 
 async function fetchRedditRepos() {
-  console.log('📡 Reddit');
-  
+  console.log('📡 Reddit RSS');
+
   const repos = [];
-  
+
   for (const sub of REDDIT_SUBS) {
     try {
-      const url = `https://old.reddit.com/r/${sub}/hot.json?limit=25&raw_json=1`;
-      const resp = await fetch(url, { 
-        headers: { 
-          'User-Agent': 'Mozilla/5.0 (compatible; trey-tools/1.0; +https://github.com/treyxu23/trey-tools)',
-          'Accept': 'application/json',
-        }
+      const url = `https://www.reddit.com/r/${sub}/.rss`;
+      const resp = await fetch(url, {
+        headers: { 'User-Agent': 'trey-tools/1.0' }
       });
       if (!resp.ok) {
         console.log(`  r/${sub}: HTTP ${resp.status}`);
         continue;
       }
-      
-      const data = await resp.json();
-      const posts = data?.data?.children || [];
-      console.log(`  r/${sub} → ${posts.length} 条帖子`);
-      
-      for (const post of posts) {
-        const pdata = post.data;
-        const githubUrl = extractGitHubUrl(pdata.url, pdata.title);
+
+      const xml = await resp.text();
+      const entries = parseRSSEntries(xml);
+      console.log(`  r/${sub} → ${entries.length} 条`);
+
+      for (const entry of entries) {
+        const githubUrl = extractGitHubUrl(entry.link, entry.title);
         if (!githubUrl) continue;
-        
+
         const { owner, repo: repoName } = parseGitHubUrl(githubUrl);
         if (!owner || !repoName) continue;
-        
-        const repoMeta = await fetchRepoMeta(owner, repoName);
-        if (!repoMeta || repoMeta.stargazers_count < 10) continue;
-        
-        // 避免重复（同一 repo 可能在多个 sub 出现）
+
         const key = `${owner}/${repoName}`;
         if (repos.find(r => r.full_name === key)) continue;
-        
+
+        const repoMeta = await fetchRepoMeta(owner, repoName);
+        if (!repoMeta || repoMeta.stargazers_count < 10) continue;
+
         repos.push({
           full_name: key,
           name: repoName,
-          description: repoMeta.description || pdata.title || '',
+          description: repoMeta.description || entry.title || '',
           stargazers_count: repoMeta.stargazers_count || 0,
           language: repoMeta.language,
           topics: repoMeta.topics || [],
           pushed_at: repoMeta.pushed_at || new Date().toISOString(),
           source: 'reddit',
-          reddit_score: pdata.score || 0,
           reddit_sub: sub,
         });
       }
@@ -286,8 +280,27 @@ async function fetchRedditRepos() {
     }
     await new Promise(r => setTimeout(r, 1000));
   }
-  
+
   return repos;
+}
+
+function parseRSSEntries(xml) {
+  const entries = [];
+  // 用正则提取 <entry>...</entry> 块
+  const entryRegex = /<entry>([\s\S]*?)<\/entry>/g;
+  let match;
+  while ((match = entryRegex.exec(xml)) !== null) {
+    const block = match[1];
+    const titleMatch = block.match(/<title[^>]*>([^<]+)<\/title>/);
+    const linkMatch = block.match(/<link[^>]*href="([^"]+)"/);
+    if (titleMatch && linkMatch) {
+      entries.push({
+        title: titleMatch[1].trim(),
+        link: linkMatch[1],
+      });
+    }
+  }
+  return entries;
 }
 
 // ─── 工具函数：URL 解析 ───────────────────────────────────
