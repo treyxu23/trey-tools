@@ -4,7 +4,7 @@
     "name": "openclaw",
     "repo": "openclaw/openclaw",
     "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
-    "stars": 381100,
+    "stars": 381102,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -20,7 +20,7 @@
     "name": "superpowers",
     "repo": "obra/superpowers",
     "description": "An agentic skills framework & software development methodology that works.",
-    "stars": 242019,
+    "stars": 242024,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -36,7 +36,7 @@
     "name": "ECC",
     "repo": "affaan-m/ECC",
     "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "stars": 223713,
+    "stars": 223716,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -55,7 +55,7 @@
     "name": "hermes-agent",
     "repo": "NousResearch/hermes-agent",
     "description": "The agent that grows with you",
-    "stars": 206119,
+    "stars": 206121,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -64,7 +64,7 @@
       "ai-chat"
     ],
     "language": "Python",
-    "pushed_at": "2026-06-30T11:24:57Z",
+    "pushed_at": "2026-06-30T11:35:21Z",
     "discovered": "2026-06-30",
     "source": "topic"
   },
@@ -80,7 +80,7 @@
       "ai-coding"
     ],
     "language": "C++",
-    "pushed_at": "2026-06-30T11:31:22Z",
+    "pushed_at": "2026-06-30T11:35:06Z",
     "discovered": "2026-06-30",
     "source": "topic"
   },
@@ -89,7 +89,7 @@
     "name": "n8n",
     "repo": "n8n-io/n8n",
     "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-    "stars": 194632,
+    "stars": 194633,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -99,7 +99,7 @@
       "self-hosted"
     ],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T11:28:07Z",
+    "pushed_at": "2026-06-30T11:35:45Z",
     "discovered": "2026-06-30",
     "source": "topic"
   },
@@ -229,7 +229,7 @@
     "name": "markitdown",
     "repo": "microsoft/markitdown",
     "description": "Python tool for converting files and office documents to Markdown.",
-    "stars": 161523,
+    "stars": 161525,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -314,7 +314,7 @@
     "name": "firecrawl",
     "repo": "firecrawl/firecrawl",
     "description": "The API to search, scrape, and interact with the web at scale. 🔥",
-    "stars": 141822,
+    "stars": 141823,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -332,7 +332,7 @@
     "name": "system-prompts-and-models-of-ai-tools",
     "repo": "x1xhlol/system-prompts-and-models-of-ai-tools",
     "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
-    "stars": 141348,
+    "stars": 141349,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -349,7 +349,7 @@
     "name": "langchain",
     "repo": "langchain-ai/langchain",
     "description": "The agent engineering platform.",
-    "stars": 140569,
+    "stars": 140570,
     "starsToday": 0,
     "category": "library",
     "tags": [
@@ -400,7 +400,7 @@
     "name": "spec-kit",
     "repo": "github/spec-kit",
     "description": "💫 Toolkit to help you get started with Spec-Driven Development",
-    "stars": 116557,
+    "stars": 116558,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -449,7 +449,7 @@
     "name": "cc-switch",
     "repo": "farion1231/cc-switch",
     "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
-    "stars": 111080,
+    "stars": 111083,
     "starsToday": 0,
     "category": "desktop",
     "tags": [
@@ -503,7 +503,7 @@
       "ai-coding"
     ],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T11:17:42Z",
+    "pushed_at": "2026-06-30T11:33:42Z",
     "discovered": "2026-06-30",
     "source": "topic"
   },
@@ -529,7 +529,7 @@
     "name": "browser-use",
     "repo": "browser-use/browser-use",
     "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
-    "stars": 101575,
+    "stars": 101577,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -561,7 +561,7 @@
     "name": "LLMs-from-scratch",
     "repo": "rasbt/LLMs-from-scratch",
     "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
-    "stars": 98199,
+    "stars": 98200,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -586,7 +586,7 @@
       "dev-tools"
     ],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T11:31:52Z",
+    "pushed_at": "2026-06-30T11:32:54Z",
     "discovered": "2026-06-30",
     "source": "topic"
   },
@@ -648,7 +648,7 @@
     "name": "TradingAgents",
     "repo": "TauricResearch/TradingAgents",
     "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-    "stars": 89918,
+    "stars": 89921,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -665,7 +665,7 @@
     "name": "uptime-kuma",
     "repo": "louislam/uptime-kuma",
     "description": "A fancy self-hosted monitoring tool",
-    "stars": 88603,
+    "stars": 88604,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -752,7 +752,7 @@
       "ai-chat"
     ],
     "language": "Python",
-    "pushed_at": "2026-06-30T11:28:06Z",
+    "pushed_at": "2026-06-30T11:35:26Z",
     "discovered": "2026-06-30",
     "source": "topic"
   },
@@ -811,7 +811,7 @@
     "name": "lazygit",
     "repo": "jesseduffield/lazygit",
     "description": "simple terminal UI for git commands",
-    "stars": 79845,
+    "stars": 79846,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -848,7 +848,7 @@
     "category": "mobile",
     "tags": [],
     "language": "Haskell",
-    "pushed_at": "2026-06-30T11:32:06.540Z",
+    "pushed_at": "2026-06-30T11:35:56.457Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -862,7 +862,7 @@
     "category": "web",
     "tags": [],
     "language": "Shell",
-    "pushed_at": "2026-06-30T11:32:06.538Z",
+    "pushed_at": "2026-06-30T11:35:56.456Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -878,7 +878,7 @@
       "ai-search"
     ],
     "language": "Python",
-    "pushed_at": "2026-06-30T11:32:06.539Z",
+    "pushed_at": "2026-06-30T11:35:56.456Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -894,7 +894,7 @@
       "ai-video"
     ],
     "language": "Python",
-    "pushed_at": "2026-06-30T11:32:06.539Z",
+    "pushed_at": "2026-06-30T11:35:56.456Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -908,7 +908,7 @@
     "category": "web",
     "tags": [],
     "language": "Shell",
-    "pushed_at": "2026-06-30T11:32:06.540Z",
+    "pushed_at": "2026-06-30T11:35:56.457Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -922,7 +922,7 @@
     "category": "cli",
     "tags": [],
     "language": "Python",
-    "pushed_at": "2026-06-30T11:32:06.540Z",
+    "pushed_at": "2026-06-30T11:35:56.457Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -936,7 +936,7 @@
     "category": "desktop",
     "tags": [],
     "language": "Swift",
-    "pushed_at": "2026-06-30T11:32:06.539Z",
+    "pushed_at": "2026-06-30T11:35:56.456Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -950,7 +950,7 @@
     "category": "desktop",
     "tags": [],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T11:32:06.539Z",
+    "pushed_at": "2026-06-30T11:35:56.456Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -964,7 +964,7 @@
     "category": "cli",
     "tags": [],
     "language": "Rust",
-    "pushed_at": "2026-06-30T11:32:06.539Z",
+    "pushed_at": "2026-06-30T11:35:56.457Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -978,7 +978,7 @@
     "category": "cli",
     "tags": [],
     "language": "Python",
-    "pushed_at": "2026-06-30T11:32:06.540Z",
+    "pushed_at": "2026-06-30T11:35:56.458Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -992,7 +992,7 @@
     "category": "cli",
     "tags": [],
     "language": "Python",
-    "pushed_at": "2026-06-30T11:32:06.539Z",
+    "pushed_at": "2026-06-30T11:35:56.457Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -1006,7 +1006,7 @@
     "category": "web",
     "tags": [],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T11:32:06.540Z",
+    "pushed_at": "2026-06-30T11:35:56.457Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -1020,7 +1020,7 @@
     "category": "cli",
     "tags": [],
     "language": "Python",
-    "pushed_at": "2026-06-30T11:32:06.538Z",
+    "pushed_at": "2026-06-30T11:35:56.456Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -1034,7 +1034,7 @@
     "category": "cli",
     "tags": [],
     "language": "Python",
-    "pushed_at": "2026-06-30T11:32:06.539Z",
+    "pushed_at": "2026-06-30T11:35:56.457Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -1048,7 +1048,7 @@
     "category": "web",
     "tags": [],
     "language": "Jupyter Notebook",
-    "pushed_at": "2026-06-30T11:32:06.540Z",
+    "pushed_at": "2026-06-30T11:35:56.457Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -1062,7 +1062,7 @@
     "category": "cli",
     "tags": [],
     "language": "Python",
-    "pushed_at": "2026-06-30T11:32:06.539Z",
+    "pushed_at": "2026-06-30T11:35:56.457Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -1078,7 +1078,7 @@
       "ai-video"
     ],
     "language": "Python",
-    "pushed_at": "2026-06-30T11:32:09.479Z",
+    "pushed_at": "2026-06-30T11:35:59.436Z",
     "discovered": "2026-06-30",
     "source": "weekly"
   },
@@ -1092,7 +1092,7 @@
     "category": "web",
     "tags": [],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T11:32:09.479Z",
+    "pushed_at": "2026-06-30T11:35:59.437Z",
     "discovered": "2026-06-30",
     "source": "weekly"
   },
@@ -1108,7 +1108,7 @@
       "ai-search"
     ],
     "language": "C",
-    "pushed_at": "2026-06-30T11:32:09.479Z",
+    "pushed_at": "2026-06-30T11:35:59.437Z",
     "discovered": "2026-06-30",
     "source": "weekly"
   },
@@ -1122,7 +1122,7 @@
     "category": "cli",
     "tags": [],
     "language": "Go",
-    "pushed_at": "2026-06-30T11:32:09.480Z",
+    "pushed_at": "2026-06-30T11:35:59.437Z",
     "discovered": "2026-06-30",
     "source": "weekly"
   },
@@ -1136,7 +1136,7 @@
     "category": "web",
     "tags": [],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T11:32:09.480Z",
+    "pushed_at": "2026-06-30T11:35:59.437Z",
     "discovered": "2026-06-30",
     "source": "weekly"
   },
@@ -1150,7 +1150,7 @@
     "category": "web",
     "tags": [],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T11:32:09.480Z",
+    "pushed_at": "2026-06-30T11:35:59.437Z",
     "discovered": "2026-06-30",
     "source": "weekly"
   },
@@ -1164,7 +1164,7 @@
     "category": "cli",
     "tags": [],
     "language": "Python",
-    "pushed_at": "2026-06-30T11:32:09.480Z",
+    "pushed_at": "2026-06-30T11:35:59.437Z",
     "discovered": "2026-06-30",
     "source": "weekly"
   },
@@ -1178,7 +1178,7 @@
     "category": "mobile",
     "tags": [],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T11:32:09.481Z",
+    "pushed_at": "2026-06-30T11:35:59.437Z",
     "discovered": "2026-06-30",
     "source": "weekly"
   },
@@ -1192,7 +1192,7 @@
     "category": "web",
     "tags": [],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T11:32:09.481Z",
+    "pushed_at": "2026-06-30T11:35:59.437Z",
     "discovered": "2026-06-30",
     "source": "weekly"
   },
@@ -1211,6 +1211,20 @@
     "source": "hn"
   },
   {
+    "slug": "LogicLabs-OU-OpenArchiver",
+    "name": "OpenArchiver",
+    "repo": "LogicLabs-OU/OpenArchiver",
+    "description": "An open-source platform for legally compliant email archiving.",
+    "stars": 2116,
+    "starsToday": 0,
+    "category": "web",
+    "tags": [],
+    "language": "TypeScript",
+    "pushed_at": "2026-04-16T15:04:50Z",
+    "discovered": "2026-06-30",
+    "source": "reddit"
+  },
+  {
     "slug": "inkeep-open-knowledge",
     "name": "open-knowledge",
     "repo": "inkeep/open-knowledge",
@@ -1227,6 +1241,23 @@
     "source": "hn"
   },
   {
+    "slug": "TestSprite-testsprite-cli",
+    "name": "testsprite-cli",
+    "repo": "TestSprite/testsprite-cli",
+    "description": "Official TestSprite CLI — AI-powered automated testing from your terminal",
+    "stars": 1386,
+    "starsToday": 0,
+    "category": "cli",
+    "tags": [
+      "ai-coding",
+      "dev-tools"
+    ],
+    "language": "TypeScript",
+    "pushed_at": "2026-06-30T01:35:07Z",
+    "discovered": "2026-06-30",
+    "source": "reddit"
+  },
+  {
     "slug": "workweave-router",
     "name": "router",
     "repo": "workweave/router",
@@ -1241,6 +1272,22 @@
     "source": "hn"
   },
   {
+    "slug": "rtvkiz-minimal",
+    "name": "minimal",
+    "repo": "rtvkiz/minimal",
+    "description": "Minimal CVE Hardened container image collection",
+    "stars": 501,
+    "starsToday": 0,
+    "category": "web",
+    "tags": [
+      "ai-image"
+    ],
+    "language": "Shell",
+    "pushed_at": "2026-06-30T10:29:06Z",
+    "discovered": "2026-06-30",
+    "source": "reddit"
+  },
+  {
     "slug": "kageroumado-adrafinil",
     "name": "adrafinil",
     "repo": "kageroumado/adrafinil",
@@ -1253,6 +1300,20 @@
     "pushed_at": "2026-06-29T00:22:08Z",
     "discovered": "2026-06-30",
     "source": "hn"
+  },
+  {
+    "slug": "sunnypatell-sunnify-spotify-downloader",
+    "name": "sunnify-spotify-downloader",
+    "repo": "sunnypatell/sunnify-spotify-downloader",
+    "description": "Sunnify is a Spotify downloader application that allows you to download entire playlists locally onto your Mac/Linux/Windows PC.",
+    "stars": 189,
+    "starsToday": 0,
+    "category": "desktop",
+    "tags": [],
+    "language": "Python",
+    "pushed_at": "2026-06-28T20:00:06Z",
+    "discovered": "2026-06-30",
+    "source": "reddit"
   },
   {
     "slug": "dbos-inc-dbosify-py",
@@ -1332,6 +1393,20 @@
     "source": "hn"
   },
   {
+    "slug": "Younesfdj-gitfut",
+    "name": "gitfut",
+    "repo": "Younesfdj/gitfut",
+    "description": "Your GitHub stats, turned into a World-Cup-style player card ",
+    "stars": 63,
+    "starsToday": 0,
+    "category": "web",
+    "tags": [],
+    "language": "TypeScript",
+    "pushed_at": "2026-06-30T09:52:18Z",
+    "discovered": "2026-06-30",
+    "source": "reddit"
+  },
+  {
     "slug": "mskrasnov-FSM",
     "name": "FSM",
     "repo": "mskrasnov/FSM",
@@ -1392,6 +1467,34 @@
     "source": "hn"
   },
   {
+    "slug": "Kaia-Alenia-Axon",
+    "name": "Axon",
+    "repo": "Kaia-Alenia/Axon",
+    "description": "Open-source remote input tool — turn any device into a wireless touchpad, keyboard & scroll wheel for your PC. Server (Go) + Android client (Kotlin).",
+    "stars": 27,
+    "starsToday": 0,
+    "category": "mobile",
+    "tags": [],
+    "language": "Kotlin",
+    "pushed_at": "2026-06-30T01:35:43Z",
+    "discovered": "2026-06-30",
+    "source": "reddit"
+  },
+  {
+    "slug": "fujiDevv-context-aware-browser-pet",
+    "name": "context-aware-browser-pet",
+    "repo": "fujiDevv/context-aware-browser-pet",
+    "description": "An interactive, context-aware browser mascot pet companion extension built using the clawd-pet SVG library.",
+    "stars": 19,
+    "starsToday": 0,
+    "category": "web",
+    "tags": [],
+    "language": "TypeScript",
+    "pushed_at": "2026-06-30T11:18:41Z",
+    "discovered": "2026-06-30",
+    "source": "reddit"
+  },
+  {
     "slug": "azhakhan-dribble",
     "name": "dribble",
     "repo": "azhakhan/dribble",
@@ -1422,6 +1525,20 @@
     "source": "hn"
   },
   {
+    "slug": "Entelligentsia-grove",
+    "name": "grove",
+    "repo": "Entelligentsia/grove",
+    "description": "Structural, byte-precise, token-cheap codebase access for coding agents — tree-sitter over a CLI and an MCP server.",
+    "stars": 14,
+    "starsToday": 0,
+    "category": "cli",
+    "tags": [],
+    "language": "Rust",
+    "pushed_at": "2026-06-30T07:27:51Z",
+    "discovered": "2026-06-30",
+    "source": "reddit"
+  },
+  {
     "slug": "dogtorjonah-context-warp-drive",
     "name": "context-warp-drive",
     "repo": "dogtorjonah/context-warp-drive",
@@ -1434,5 +1551,19 @@
     "pushed_at": "2026-06-30T02:22:27Z",
     "discovered": "2026-06-30",
     "source": "hn"
+  },
+  {
+    "slug": "mazvazzeg-hvtop",
+    "name": "hvtop",
+    "repo": "mazvazzeg/hvtop",
+    "description": "hvtop is a TUI Hyper-V performance/telemetry monitor",
+    "stars": 10,
+    "starsToday": 0,
+    "category": "web",
+    "tags": [],
+    "language": "C#",
+    "pushed_at": "2026-06-29T22:00:27Z",
+    "discovered": "2026-06-30",
+    "source": "reddit"
   }
 ]
