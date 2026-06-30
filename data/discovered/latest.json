@@ -11,7 +11,7 @@
       "ai-coding"
     ],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T09:02:37Z",
+    "pushed_at": "2026-06-30T11:29:51Z",
     "discovered": "2026-06-30",
     "source": "topic"
   },
@@ -20,7 +20,7 @@
     "name": "superpowers",
     "repo": "obra/superpowers",
     "description": "An agentic skills framework & software development methodology that works.",
-    "stars": 242016,
+    "stars": 242019,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -55,7 +55,7 @@
     "name": "hermes-agent",
     "repo": "NousResearch/hermes-agent",
     "description": "The agent that grows with you",
-    "stars": 206116,
+    "stars": 206119,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -80,7 +80,7 @@
       "ai-coding"
     ],
     "language": "C++",
-    "pushed_at": "2026-06-30T11:27:46Z",
+    "pushed_at": "2026-06-30T11:31:22Z",
     "discovered": "2026-06-30",
     "source": "topic"
   },
@@ -158,7 +158,7 @@
     "name": "yt-dlp",
     "repo": "yt-dlp/yt-dlp",
     "description": "A feature-rich command-line audio/video downloader",
-    "stars": 174365,
+    "stars": 174366,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -194,7 +194,7 @@
     "name": "stable-diffusion-webui",
     "repo": "AUTOMATIC1111/stable-diffusion-webui",
     "description": "Stable Diffusion web UI",
-    "stars": 163947,
+    "stars": 163948,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -296,7 +296,7 @@
     "name": "open-webui",
     "repo": "open-webui/open-webui",
     "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-    "stars": 143527,
+    "stars": 143528,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -383,7 +383,7 @@
     "name": "ComfyUI",
     "repo": "Comfy-Org/ComfyUI",
     "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
-    "stars": 118876,
+    "stars": 118878,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -400,7 +400,7 @@
     "name": "spec-kit",
     "repo": "github/spec-kit",
     "description": "💫 Toolkit to help you get started with Spec-Driven Development",
-    "stars": 116554,
+    "stars": 116557,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -449,7 +449,7 @@
     "name": "cc-switch",
     "repo": "farion1231/cc-switch",
     "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
-    "stars": 111078,
+    "stars": 111080,
     "starsToday": 0,
     "category": "desktop",
     "tags": [
@@ -586,7 +586,7 @@
       "dev-tools"
     ],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T10:28:13Z",
+    "pushed_at": "2026-06-30T11:31:52Z",
     "discovered": "2026-06-30",
     "source": "topic"
   },
@@ -613,7 +613,7 @@
     "name": "MoneyPrinterTurbo",
     "repo": "harry0703/MoneyPrinterTurbo",
     "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
-    "stars": 94351,
+    "stars": 94352,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -848,7 +848,7 @@
     "category": "mobile",
     "tags": [],
     "language": "Haskell",
-    "pushed_at": "2026-06-30T11:28:57.720Z",
+    "pushed_at": "2026-06-30T11:32:06.540Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -862,7 +862,7 @@
     "category": "web",
     "tags": [],
     "language": "Shell",
-    "pushed_at": "2026-06-30T11:28:57.719Z",
+    "pushed_at": "2026-06-30T11:32:06.538Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -878,7 +878,7 @@
       "ai-search"
     ],
     "language": "Python",
-    "pushed_at": "2026-06-30T11:28:57.720Z",
+    "pushed_at": "2026-06-30T11:32:06.539Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -894,7 +894,7 @@
       "ai-video"
     ],
     "language": "Python",
-    "pushed_at": "2026-06-30T11:28:57.720Z",
+    "pushed_at": "2026-06-30T11:32:06.539Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -908,7 +908,7 @@
     "category": "web",
     "tags": [],
     "language": "Shell",
-    "pushed_at": "2026-06-30T11:28:57.721Z",
+    "pushed_at": "2026-06-30T11:32:06.540Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -922,7 +922,7 @@
     "category": "cli",
     "tags": [],
     "language": "Python",
-    "pushed_at": "2026-06-30T11:28:57.721Z",
+    "pushed_at": "2026-06-30T11:32:06.540Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -936,7 +936,7 @@
     "category": "desktop",
     "tags": [],
     "language": "Swift",
-    "pushed_at": "2026-06-30T11:28:57.719Z",
+    "pushed_at": "2026-06-30T11:32:06.539Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -950,7 +950,7 @@
     "category": "desktop",
     "tags": [],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T11:28:57.719Z",
+    "pushed_at": "2026-06-30T11:32:06.539Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -964,7 +964,7 @@
     "category": "cli",
     "tags": [],
     "language": "Rust",
-    "pushed_at": "2026-06-30T11:28:57.720Z",
+    "pushed_at": "2026-06-30T11:32:06.539Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -978,7 +978,7 @@
     "category": "cli",
     "tags": [],
     "language": "Python",
-    "pushed_at": "2026-06-30T11:28:57.721Z",
+    "pushed_at": "2026-06-30T11:32:06.540Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -992,7 +992,7 @@
     "category": "cli",
     "tags": [],
     "language": "Python",
-    "pushed_at": "2026-06-30T11:28:57.720Z",
+    "pushed_at": "2026-06-30T11:32:06.539Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -1006,7 +1006,7 @@
     "category": "web",
     "tags": [],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T11:28:57.721Z",
+    "pushed_at": "2026-06-30T11:32:06.540Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -1020,7 +1020,7 @@
     "category": "cli",
     "tags": [],
     "language": "Python",
-    "pushed_at": "2026-06-30T11:28:57.719Z",
+    "pushed_at": "2026-06-30T11:32:06.538Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -1034,7 +1034,7 @@
     "category": "cli",
     "tags": [],
     "language": "Python",
-    "pushed_at": "2026-06-30T11:28:57.720Z",
+    "pushed_at": "2026-06-30T11:32:06.539Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -1048,7 +1048,7 @@
     "category": "web",
     "tags": [],
     "language": "Jupyter Notebook",
-    "pushed_at": "2026-06-30T11:28:57.720Z",
+    "pushed_at": "2026-06-30T11:32:06.540Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -1062,7 +1062,7 @@
     "category": "cli",
     "tags": [],
     "language": "Python",
-    "pushed_at": "2026-06-30T11:28:57.720Z",
+    "pushed_at": "2026-06-30T11:32:06.539Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -1078,7 +1078,7 @@
       "ai-video"
     ],
     "language": "Python",
-    "pushed_at": "2026-06-30T11:29:00.598Z",
+    "pushed_at": "2026-06-30T11:32:09.479Z",
     "discovered": "2026-06-30",
     "source": "weekly"
   },
@@ -1092,7 +1092,7 @@
     "category": "web",
     "tags": [],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T11:29:00.599Z",
+    "pushed_at": "2026-06-30T11:32:09.479Z",
     "discovered": "2026-06-30",
     "source": "weekly"
   },
@@ -1108,7 +1108,7 @@
       "ai-search"
     ],
     "language": "C",
-    "pushed_at": "2026-06-30T11:29:00.599Z",
+    "pushed_at": "2026-06-30T11:32:09.479Z",
     "discovered": "2026-06-30",
     "source": "weekly"
   },
@@ -1122,7 +1122,7 @@
     "category": "cli",
     "tags": [],
     "language": "Go",
-    "pushed_at": "2026-06-30T11:29:00.599Z",
+    "pushed_at": "2026-06-30T11:32:09.480Z",
     "discovered": "2026-06-30",
     "source": "weekly"
   },
@@ -1136,7 +1136,7 @@
     "category": "web",
     "tags": [],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T11:29:00.599Z",
+    "pushed_at": "2026-06-30T11:32:09.480Z",
     "discovered": "2026-06-30",
     "source": "weekly"
   },
@@ -1150,7 +1150,7 @@
     "category": "web",
     "tags": [],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T11:29:00.599Z",
+    "pushed_at": "2026-06-30T11:32:09.480Z",
     "discovered": "2026-06-30",
     "source": "weekly"
   },
@@ -1164,7 +1164,7 @@
     "category": "cli",
     "tags": [],
     "language": "Python",
-    "pushed_at": "2026-06-30T11:29:00.599Z",
+    "pushed_at": "2026-06-30T11:32:09.480Z",
     "discovered": "2026-06-30",
     "source": "weekly"
   },
@@ -1178,7 +1178,7 @@
     "category": "mobile",
     "tags": [],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T11:29:00.599Z",
+    "pushed_at": "2026-06-30T11:32:09.481Z",
     "discovered": "2026-06-30",
     "source": "weekly"
   },
@@ -1192,7 +1192,7 @@
     "category": "web",
     "tags": [],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T11:29:00.599Z",
+    "pushed_at": "2026-06-30T11:32:09.481Z",
     "discovered": "2026-06-30",
     "source": "weekly"
   },
