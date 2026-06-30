@@ -225,9 +225,6 @@ async function fetchHNShowHN() {
 
 const REDDIT_SUBS = [
   'coolgithubprojects',
-  'SideProject',
-  'opensource',
-  'github',
 ];
 
 async function fetchRedditRepos() {
@@ -283,7 +280,7 @@ async function fetchRedditRepos() {
     } catch (e) {
       console.log(`  r/${sub}: 请求失败`);
     }
-    await new Promise(r => setTimeout(r, 8000));
+    await new Promise(r => setTimeout(r, 3000));
   }
 
   return repos;
