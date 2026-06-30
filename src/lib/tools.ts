@@ -13,7 +13,7 @@ export interface Tool {
   starsToday?: number;
   added?: string;
   featured?: boolean;
-  source: 'curated' | 'discovered' | 'daily' | 'weekly';
+  source: 'curated' | 'discovered' | 'daily' | 'weekly' | 'hn' | 'reddit' | 'topic';
 }
 
 const DATA_DIR = resolve(process.cwd(), 'data');

@@ -1,7 +1,11 @@
 /**
- * 自动发现脚本 — 从 GitHub Trending + 热门 Topics 抓取开源工具
- * 由 GitHub Actions 定时触发，每天一次
+ * 自动发现脚本 — 4 条数据源抓取开源工具
+ *  ① GitHub Trending（HTML 爬取 daily+weekly）
+ *  ② GitHub Topic Search（API 搜索 20 个 topic）
+ *  ③ Hacker News Show HN（提取 GitHub 链接）
+ *  ④ Reddit（r/MachineLearning 等板块提取 GitHub 链接）
  *
+ * 由 GitHub Actions 定时触发，每天一次
  * 数据写入 data/discovered/latest.json
  */
 
@@ -158,6 +162,156 @@ async function fetchTopicRepos(topic, page = 1) {
   return data.items || [];
 }
 
+// ─── 数据源三：Hacker News Show HN ────────────────────────
+
+const HN_BASE = 'https://hacker-news.firebaseio.com/v0';
+
+async function fetchHNShowHN() {
+  console.log('📡 HN Show HN');
+  
+  // 获取 Show HN 帖子 ID 列表
+  const idsResp = await fetch(`${HN_BASE}/showstories.json`);
+  if (!idsResp.ok) {
+    console.log(`  ⚠️  HTTP ${idsResp.status}`);
+    return [];
+  }
+  
+  const ids = await idsResp.json();
+  const recentIds = ids.slice(0, 50); // 取最近 50 条
+  
+  console.log(`  → 获取 ${recentIds.length} 条帖子`);
+  
+  const repos = [];
+  for (const id of recentIds) {
+    try {
+      const itemResp = await fetch(`${HN_BASE}/item/${id}.json`);
+      const item = await itemResp.json();
+      if (!item) continue;
+      
+      // 从标题和 URL 提取 GitHub 链接
+      const githubUrl = extractGitHubUrl(item.url, item.title);
+      if (!githubUrl) continue;
+      
+      const { owner, repo: repoName } = parseGitHubUrl(githubUrl);
+      if (!owner || !repoName) continue;
+      
+      // 用 GitHub API 获取仓库元数据
+      const repoMeta = await fetchRepoMeta(owner, repoName);
+      if (!repoMeta || repoMeta.stargazers_count < 10) continue;
+      
+      repos.push({
+        full_name: `${owner}/${repoName}`,
+        name: repoName,
+        description: repoMeta.description || item.title || '',
+        stargazers_count: repoMeta.stargazers_count || 0,
+        language: repoMeta.language,
+        topics: repoMeta.topics || [],
+        pushed_at: repoMeta.pushed_at || new Date().toISOString(),
+        source: 'hn',
+        hn_points: item.score || 0,
+        hn_title: item.title || '',
+      });
+    } catch (e) {
+      // 单个失败不影响整体
+    }
+    // 避免 rate limit
+    await new Promise(r => setTimeout(r, 100));
+  }
+  
+  return repos;
+}
+
+// ─── 数据源四：Reddit ─────────────────────────────────────
+
+const REDDIT_SUBS = [
+  'MachineLearning',
+  'opensource',
+  'artificial',
+  'programming',
+];
+
+async function fetchRedditRepos() {
+  console.log('📡 Reddit');
+  
+  const repos = [];
+  
+  for (const sub of REDDIT_SUBS) {
+    try {
+      const url = `https://www.reddit.com/r/${sub}/hot.json?limit=25`;
+      const resp = await fetch(url, { headers: { 'User-Agent': 'trey-tools/1.0' } });
+      if (!resp.ok) {
+        console.log(`  r/${sub}: HTTP ${resp.status}`);
+        continue;
+      }
+      
+      const data = await resp.json();
+      const posts = data?.data?.children || [];
+      console.log(`  r/${sub} → ${posts.length} 条帖子`);
+      
+      for (const post of posts) {
+        const pdata = post.data;
+        const githubUrl = extractGitHubUrl(pdata.url, pdata.title);
+        if (!githubUrl) continue;
+        
+        const { owner, repo: repoName } = parseGitHubUrl(githubUrl);
+        if (!owner || !repoName) continue;
+        
+        const repoMeta = await fetchRepoMeta(owner, repoName);
+        if (!repoMeta || repoMeta.stargazers_count < 10) continue;
+        
+        // 避免重复（同一 repo 可能在多个 sub 出现）
+        const key = `${owner}/${repoName}`;
+        if (repos.find(r => r.full_name === key)) continue;
+        
+        repos.push({
+          full_name: key,
+          name: repoName,
+          description: repoMeta.description || pdata.title || '',
+          stargazers_count: repoMeta.stargazers_count || 0,
+          language: repoMeta.language,
+          topics: repoMeta.topics || [],
+          pushed_at: repoMeta.pushed_at || new Date().toISOString(),
+          source: 'reddit',
+          reddit_score: pdata.score || 0,
+          reddit_sub: sub,
+        });
+      }
+    } catch (e) {
+      console.log(`  r/${sub}: 请求失败`);
+    }
+    await new Promise(r => setTimeout(r, 1000));
+  }
+  
+  return repos;
+}
+
+// ─── 工具函数：URL 解析 ───────────────────────────────────
+
+function extractGitHubUrl(url, title) {
+  const text = [url, title].filter(Boolean).join(' ');
+  const match = text.match(/github\.com\/([a-zA-Z0-9_.-]+\/[a-zA-Z0-9_.-]+)/);
+  return match ? `https://github.com/${match[1]}` : null;
+}
+
+function parseGitHubUrl(url) {
+  const match = url.match(/github\.com\/([a-zA-Z0-9_.-]+)\/([a-zA-Z0-9_.-]+)/);
+  if (!match) return {};
+  return { owner: match[1], repo: match[2] };
+}
+
+async function fetchRepoMeta(owner, repo) {
+  try {
+    const resp = await fetch(
+      `https://api.github.com/repos/${owner}/${repo}`,
+      { headers: getApiHeaders() }
+    );
+    if (!resp.ok) return null;
+    return await resp.json();
+  } catch {
+    return null;
+  }
+}
+
 // ─── 分类 & 标签映射 ──────────────────────────────────────
 
 function guessCategory(topics, language, inferredTopics = []) {
@@ -255,6 +409,24 @@ async function main() {
     await new Promise(r => setTimeout(r, 1500));
   }
 
+  // 数据源三：Hacker News Show HN
+  const hnRepos = await fetchHNShowHN();
+  console.log(`  → 获取 ${hnRepos.length} 个仓库`);
+  for (const repo of hnRepos) {
+    if (!allRepos.has(repo.full_name)) {
+      allRepos.set(repo.full_name, repo);
+    }
+  }
+
+  // 数据源四：Reddit
+  const redditRepos = await fetchRedditRepos();
+  console.log(`  → 获取 ${redditRepos.length} 个仓库`);
+  for (const repo of redditRepos) {
+    if (!allRepos.has(repo.full_name)) {
+      allRepos.set(repo.full_name, repo);
+    }
+  }
+
   console.log(`\n📊 去重后共 ${allRepos.size} 个仓库`);
 
   // 转换 & 筛选
@@ -281,16 +453,21 @@ async function main() {
     });
   }
 
-  // 混合排序：Trending 和 Topic 分开取，保证 Trending 可见
+  // 混合排序：Trending 和新来源优先，Topic 垫底
   const trendingTools = tools.filter(t => t.source === 'daily' || t.source === 'weekly');
-  const topicTools = tools.filter(t => t.source !== 'daily' && t.source !== 'weekly');
+  const communityTools = tools.filter(t => t.source === 'hn' || t.source === 'reddit');
+  const topicTools = tools.filter(t => t.source === 'topic');
 
-  // 各自组内排序
   trendingTools.sort((a, b) => b.stars - a.stars);
+  communityTools.sort((a, b) => b.stars - a.stars);
   topicTools.sort((a, b) => b.stars - a.stars);
 
-  // 取 top 70 topic + top 30 trending，合并
-  const top = [...topicTools.slice(0, 70), ...trendingTools.slice(0, 30)];
+  // 取 top 50 topic + 25 trending + 25 community
+  const top = [
+    ...topicTools.slice(0, 50),
+    ...trendingTools.slice(0, 25),
+    ...communityTools.slice(0, 25),
+  ];
 
   if (!existsSync(DATA_DIR)) {
     mkdirSync(DATA_DIR, { recursive: true });
@@ -299,10 +476,15 @@ async function main() {
   writeFileSync(OUTPUT_FILE, JSON.stringify(top, null, 2));
 
   // 统计
-  const trendingCount = tools.filter(t => t.source === 'daily' || t.source === 'weekly').length;
+  const srcTrending = tools.filter(t => t.source === 'daily' || t.source === 'weekly').length;
+  const srcHN = tools.filter(t => t.source === 'hn').length;
+  const srcReddit = tools.filter(t => t.source === 'reddit').length;
+  const srcTopic = tools.filter(t => t.source === 'topic').length;
   console.log(`\n✅ 写入 ${top.length} 个工具`);
-  console.log(`   📈 Trending 来源: ${trendingCount} 个`);
-  console.log(`   🔍 Topic 搜索: ${top.length - trendingCount} 个`);
+  console.log(`   📈 Trending: ${srcTrending} 个`);
+  console.log(`   📡 HN: ${srcHN} 个`);
+  console.log(`   📡 Reddit: ${srcReddit} 个`);
+  console.log(`   🔍 Topic: ${srcTopic} 个`);
 }
 
 main().catch(err => {

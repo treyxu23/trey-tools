@@ -7,7 +7,9 @@ import { getAllTools, getFeaturedTools, getDiscoveredTools, filterByTags } from 
 const allTools = getAllTools();
 const featured = getFeaturedTools();
 const trending = allTools.filter(t => t.source === 'daily' || t.source === 'weekly').slice(0, 6);
-const discovered = getDiscoveredTools().filter(t => t.source !== 'daily' && t.source !== 'weekly');
+const hnTools = allTools.filter(t => t.source === 'hn').slice(0, 6);
+const redditTools = allTools.filter(t => t.source === 'reddit').slice(0, 6);
+const discovered = getDiscoveredTools().filter(t => !['daily','weekly','hn','reddit'].includes(t.source));
 const tagParam = Astro.url.searchParams.get('tags') || '';
 const selectedTags = tagParam ? tagParam.split(',').filter(Boolean) : [];
 const filtered = selectedTags.length ? filterByTags(allTools, selectedTags) : allTools;
@@ -48,6 +50,26 @@ const filtered = selectedTags.length ? filterByTags(allTools, selectedTags) : al
             <h2 class="text-lg font-semibold mb-4 text-red-400">🔥 今日趋势</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
               {trending.map(tool => <ToolCard {...tool} />)}
+            </div>
+          </section>
+        )}
+
+        <!-- HN -->
+        {hnTools.length > 0 && (
+          <section class="mb-10">
+            <h2 class="text-lg font-semibold mb-4 text-orange-400">📡 Hacker News</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+              {hnTools.map(tool => <ToolCard {...tool} />)}
+            </div>
+          </section>
+        )}
+
+        <!-- Reddit -->
+        {redditTools.length > 0 && (
+          <section class="mb-10">
+            <h2 class="text-lg font-semibold mb-4 text-purple-400">📡 Reddit 推荐</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+              {redditTools.map(tool => <ToolCard {...tool} />)}
             </div>
           </section>
         )}

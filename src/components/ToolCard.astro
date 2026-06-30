@@ -7,13 +7,14 @@ export interface Props {
   tags: string[];
   stars?: number;
   featured?: boolean;
-  source?: 'curated' | 'discovered' | 'daily' | 'weekly';
+  source?: 'curated' | 'discovered' | 'daily' | 'weekly' | 'hn' | 'reddit' | 'topic';
   starsToday?: number;
 }
 
 const { name, repo, description, category, tags, stars, starsToday, featured, source } = Astro.props;
 const [owner] = repo.split('/');
 const isTrending = source === 'daily' || source === 'weekly';
+const isCommunity = source === 'hn' || source === 'reddit';
 ---
 
 <a href={`/trey-tools/tool/${repo.replace('/', '-')}`}
@@ -21,7 +22,9 @@ const isTrending = source === 'daily' || source === 'weekly';
   <div class="flex items-start justify-between gap-2 mb-2">
     <h3 class="font-semibold text-zinc-100 group-hover:text-white truncate">{name}</h3>
     {isTrending && <span class="shrink-0 text-xs px-1.5 py-0.5 rounded bg-red-900/50 text-red-400">🔥 趋势</span>}
-    {source === 'discovered' && !isTrending && <span class="shrink-0 text-xs px-1.5 py-0.5 rounded bg-zinc-800 text-zinc-500">🤖 发现</span>}
+    {source === 'hn' && <span class="shrink-0 text-xs px-1.5 py-0.5 rounded bg-orange-900/50 text-orange-400">📡 HN</span>}
+    {source === 'reddit' && <span class="shrink-0 text-xs px-1.5 py-0.5 rounded bg-purple-900/50 text-purple-400">📡 Reddit</span>}
+    {source === 'discovered' && !isTrending && !isCommunity && <span class="shrink-0 text-xs px-1.5 py-0.5 rounded bg-zinc-800 text-zinc-500">🤖 发现</span>}
     {featured && <span class="shrink-0 text-xs px-1.5 py-0.5 rounded bg-amber-900/50 text-amber-400">精选</span>}
   </div>
 
