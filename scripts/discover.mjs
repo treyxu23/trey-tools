@@ -242,6 +242,11 @@ async function fetchRedditRepos() {
         headers: { 'User-Agent': 'trey-tools/1.0' }
       });
       if (!resp.ok) {
+        if (resp.status === 429) {
+          console.log(`  r/${sub}: HTTP 429, 等待后重试`);
+          await new Promise(r => setTimeout(r, 10000));
+          continue; // 跳过这个 sub，不浪费时间
+        }
         console.log(`  r/${sub}: HTTP ${resp.status}`);
         continue;
       }
@@ -278,7 +283,7 @@ async function fetchRedditRepos() {
     } catch (e) {
       console.log(`  r/${sub}: 请求失败`);
     }
-    await new Promise(r => setTimeout(r, 5000));
+    await new Promise(r => setTimeout(r, 8000));
   }
 
   return repos;
@@ -286,17 +291,19 @@ async function fetchRedditRepos() {
 
 function parseRSSEntries(xml) {
   const entries = [];
-  // 用正则提取 <entry>...</entry> 块
   const entryRegex = /<entry>([\s\S]*?)<\/entry>/g;
   let match;
   while ((match = entryRegex.exec(xml)) !== null) {
     const block = match[1];
     const titleMatch = block.match(/<title[^>]*>([^<]+)<\/title>/);
-    const linkMatch = block.match(/<link[^>]*href="([^"]+)"/);
-    if (titleMatch && linkMatch) {
+    // Reddit RSS: <link href="..."/> 指向 Reddit 帖子，外链在 <content> 中
+    const contentMatch = block.match(/<content[^>]*>([\s\S]*?)<\/content>/);
+    const content = contentMatch ? contentMatch[1].replace(/<[^>]+>/g, ' ').trim() : '';
+    
+    if (titleMatch) {
       entries.push({
         title: titleMatch[1].trim(),
-        link: linkMatch[1],
+        link: content, // 从 content 中提取 GitHub 链接
       });
     }
   }
