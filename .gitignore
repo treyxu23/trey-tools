@@ -1,0 +1,14 @@
+# 依赖
+node_modules/
+dist/
+
+# 构建
+.astro/
+
+# 环境
+.env
+.env.local
+
+# 系统
+.DS_Store
+Thumbs.db

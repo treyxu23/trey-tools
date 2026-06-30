@@ -1,0 +1,23 @@
+{
+  "name": "trey-tools",
+  "version": "1.0.0",
+  "description": "开源工具导航站 — AI 工具为主的 GitHub 开源项目黄页",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@modyfi/vite-plugin-yaml": "^1.1.1",
+    "astro": "^5.0.0",
+    "fuse.js": "^7.0.0",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/node": "^22.0.0",
+    "tailwindcss": "^4.0.0"
+  }
+}

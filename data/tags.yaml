@@ -1,0 +1,26 @@
+# 二级标签（用途，跨一级分类，多选）
+tags:
+  - slug: ai-coding
+    name: "AI 编程"
+  - slug: ai-agent
+    name: "AI Agent"
+  - slug: ai-chat
+    name: "AI 对话"
+  - slug: ai-text
+    name: "AI 写作"
+  - slug: ai-image
+    name: "AI 图片"
+  - slug: ai-video
+    name: "AI 视频"
+  - slug: ai-audio
+    name: "AI 音频"
+  - slug: ai-search
+    name: "AI 搜索"
+  - slug: productivity
+    name: "效率工具"
+  - slug: dev-tools
+    name: "开发工具"
+  - slug: self-hosted
+    name: "可自部署"
+  - slug: open-source-alt
+    name: "开源替代"

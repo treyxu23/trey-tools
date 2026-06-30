@@ -1,0 +1,8 @@
+slug: open-webui
+name: Open WebUI
+repo: open-webui/open-webui
+category: web
+tags: [ai-chat, self-hosted, open-source-alt]
+description: 自部署的 ChatGPT 风格界面，支持 Ollama 和 OpenAI 兼容 API
+added: 2026-06-30
+featured: false

@@ -1,0 +1,8 @@
+slug: claude-code
+name: Claude Code
+repo: anthropics/claude-code
+category: cli
+tags: [ai-coding, ai-agent]
+description: Anthropic 官方的终端 AI 编程助手，用自然语言操控代码库
+added: 2026-06-30
+featured: true

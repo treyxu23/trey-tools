@@ -1,0 +1,8 @@
+slug: langchain
+name: LangChain
+repo: langchain-ai/langchain
+category: library
+tags: [ai-agent, dev-tools]
+description: 构建 LLM 应用的开发框架，连接模型、工具和记忆
+added: 2026-06-30
+featured: false

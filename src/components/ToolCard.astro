@@ -1,0 +1,38 @@
+---
+export interface Props {
+  name: string;
+  repo: string;
+  description: string;
+  category: string;
+  tags: string[];
+  stars?: number;
+  featured?: boolean;
+  source?: 'curated' | 'discovered';
+}
+
+const { name, repo, description, category, tags, stars, featured, source } = Astro.props;
+const [owner] = repo.split('/');
+---
+
+<a href={`/trey-tools/tool/${repo.replace('/', '-')}`}
+   class="block p-4 rounded-xl border border-zinc-800 bg-zinc-900 hover:border-zinc-700 hover:bg-zinc-800/50 transition-all group">
+  <div class="flex items-start justify-between gap-2 mb-2">
+    <h3 class="font-semibold text-zinc-100 group-hover:text-white truncate">{name}</h3>
+    {source === 'discovered' && <span class="shrink-0 text-xs px-1.5 py-0.5 rounded bg-zinc-800 text-zinc-500">🤖 发现</span>}
+    {featured && <span class="shrink-0 text-xs px-1.5 py-0.5 rounded bg-amber-900/50 text-amber-400">精选</span>}
+  </div>
+
+  <p class="text-sm text-zinc-400 mb-3 line-clamp-2">{description}</p>
+
+  <div class="flex items-center gap-2 text-xs text-zinc-500">
+    <span class="font-mono text-zinc-600">{repo}</span>
+    {stars != null && <span>⭐ {stars >= 1000 ? `${(stars / 1000).toFixed(1)}k` : stars}</span>}
+  </div>
+
+  <div class="flex flex-wrap gap-1 mt-2">
+    {tags.slice(0, 3).map(tag => (
+      <span class="text-xs px-1.5 py-0.5 rounded bg-zinc-800 text-zinc-500">{tag}</span>
+    ))}
+    {tags.length > 3 && <span class="text-xs text-zinc-600">+{tags.length - 3}</span>}
+  </div>
+</a>

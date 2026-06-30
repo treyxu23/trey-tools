@@ -1,0 +1,19 @@
+---
+import tags from '../../data/tags.yaml';
+
+const { selected = [] } = Astro.props as { selected?: string[] };
+---
+
+<div class="flex flex-wrap gap-2">
+  {tags.tags.map((t: any) => {
+    const isActive = selected.includes(t.slug);
+    return (
+      <a href={`?tags=${isActive ? selected.filter((s: string) => s !== t.slug).join(',') : [...selected, t.slug].join(',')}`}
+         class={`text-xs px-2 py-1 rounded-full transition-colors ${
+           isActive ? 'bg-blue-900/50 text-blue-300 border border-blue-800' : 'bg-zinc-800 text-zinc-500 border border-zinc-700 hover:border-zinc-600 hover:text-zinc-300'
+         }`}>
+        {t.name}
+      </a>
+    );
+  })}
+</div>

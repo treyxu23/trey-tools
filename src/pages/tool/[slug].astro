@@ -1,0 +1,57 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getToolBySlug, getAllTools } from '../../lib/tools';
+
+export function getStaticPaths() {
+  const tools = getAllTools();
+  return tools.map(tool => ({
+    params: { slug: tool.slug },
+  }));
+}
+
+const { slug } = Astro.params;
+const tool = getToolBySlug(slug!);
+
+if (!tool) {
+  return new Response(null, { status: 404, statusText: 'Not Found' });
+}
+---
+
+<Base>
+  <div class="max-w-3xl mx-auto px-4 py-8">
+    <a href="/trey-tools/" class="text-sm text-zinc-500 hover:text-zinc-300 mb-4 inline-block">← 返回首页</a>
+
+    <article class="bg-zinc-900 border border-zinc-800 rounded-xl p-6">
+      <div class="flex items-start justify-between mb-4">
+        <div>
+          <h1 class="text-2xl font-bold">{tool.name}</h1>
+          <p class="text-zinc-500 font-mono text-sm mt-1">{tool.repo}</p>
+        </div>
+        <div class="flex gap-2">
+          {tool.featured && <span class="text-xs px-2 py-1 rounded bg-amber-900/50 text-amber-400">精选</span>}
+          {tool.source === 'discovered' && <span class="text-xs px-2 py-1 rounded bg-zinc-800 text-zinc-500">🤖 自动发现</span>}
+        </div>
+      </div>
+
+      <p class="text-zinc-300 mb-6">{tool.description}</p>
+
+      <div class="flex flex-wrap gap-2 mb-6">
+        {tool.tags?.map((tag: string) => (
+          <span class="text-xs px-2 py-1 rounded-full bg-zinc-800 text-zinc-400">{tag}</span>
+        ))}
+      </div>
+
+      <div class="flex items-center gap-4 text-sm text-zinc-500 mb-6">
+        {tool.stars != null && <span>⭐ {tool.stars.toLocaleString()} stars</span>}
+        {tool.added && <span>📅 收录于 {tool.added}</span>}
+      </div>
+
+      <a href={`https://github.com/${tool.repo}`}
+         target="_blank" rel="noopener"
+         class="inline-flex items-center gap-2 px-4 py-2 bg-zinc-800 hover:bg-zinc-700 rounded-lg text-sm transition-colors">
+        🔗 打开 GitHub
+        <span class="text-zinc-500">↗</span>
+      </a>
+    </article>
+  </div>
+</Base>

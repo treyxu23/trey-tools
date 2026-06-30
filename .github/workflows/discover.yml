@@ -1,0 +1,37 @@
+# 自动发现 — 每天 UTC 0 点（北京时间 8 点）运行
+name: Discover Tools
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # 手动触发
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Run discover script
+        run: node scripts/discover.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit & push if changes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/discovered/
+          if git diff --staged --quiet; then
+            echo "No changes"
+          else
+            git commit -m "🤖 auto: discover $(date +%Y-%m-%d)"
+            git push
+          fi

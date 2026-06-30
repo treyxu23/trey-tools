@@ -1,0 +1,23 @@
+# 一级分类（形态/平台）
+categories:
+  - slug: cli
+    name: "⌨️ CLI 工具"
+    description: "命令行工具，终端里跑的"
+  - slug: desktop
+    name: "💻 桌面应用"
+    description: "macOS / Windows / Linux 原生软件"
+  - slug: mobile
+    name: "📱 移动应用"
+    description: "iOS / Android App"
+  - slug: web
+    name: "🌐 Web 应用"
+    description: "浏览器里用的在线工具"
+  - slug: extension
+    name: "🧩 浏览器扩展"
+    description: "Chrome / Firefox / Safari 插件"
+  - slug: library
+    name: "📦 库 & SDK"
+    description: "开发者用的库、框架、SDK"
+  - slug: model
+    name: "🤖 开源模型"
+    description: "可部署的开源 AI 模型"

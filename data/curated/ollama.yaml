@@ -1,0 +1,8 @@
+slug: ollama
+name: Ollama
+repo: ollama/ollama
+category: cli
+tags: [ai-chat, self-hosted, dev-tools]
+description: 本地运行大语言模型，一行命令搞定 Llama、Qwen 等
+added: 2026-06-30
+featured: true
