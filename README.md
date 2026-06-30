@@ -1,73 +1,59 @@
 # 🛠️ trey-tools
 
-开源工具导航站 — 发现好用的开源工具，以 AI 为主但不设限。
+**每天自动更新的开源工具导航站。** 不是又一个 Awesome List——是有截图、有分类、能筛选的真正导航。
 
 [![Deploy](https://github.com/treyxu23/trey-tools/actions/workflows/deploy.yml/badge.svg)](https://github.com/treyxu23/trey-tools/actions/workflows/deploy.yml)
 [![Discover](https://github.com/treyxu23/trey-tools/actions/workflows/discover.yml/badge.svg)](https://github.com/treyxu23/trey-tools/actions/workflows/discover.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Tools](https://img.shields.io/badge/tools-100%2B-blue)](https://treyxu23.github.io/trey-tools)
 
-🌐 **在线地址**: [treyxu23.github.io/trey-tools](https://treyxu23.github.io/trey-tools)
+![trey-tools 预览](public/preview.png)
+
+🌐 **[打开导航站 →](https://treyxu23.github.io/trey-tools)**
 
 ---
 
-## 🤔 痛点
+## 这东西干嘛的
 
-GitHub 上有海量开源工具，但发现它们全靠运气——要么刷 Trending 碰到，要么靠别人的 Awesome List（纯文本长清单，根本没法浏览）。
+GitHub 上每天冒出几百个新工具。你靠什么发现——刷 Trending？翻 Awesome List？等别人推荐？
 
-没有一个**直观的分类导航站**，能让你按形态、用途快速找到想要的工具。
+trey-tools 帮你干了这件事：
 
-## 🛠️ 解法
+- 🤖 **自动盯着** — 每天从 GitHub Trending + 20 个热门 Topic 抓新项目
+- 🏷️ **帮你分类** — 不是纯文本堆砌，按形态 + 用途两级分类，标签可筛选
+- 🔥 **趋势可见** — 哪些在涨、哪些在爆，一眼看出
+- ⭐ **手动精选** — 靠谱的工具人工标注，和自动发现区分开
 
-trey-tools 是一个**自动发现 + 手动精选**的开源工具导航站：
+## 怎么用
 
-- 🏷️ **两级分类**：先按形态（CLI / 桌面 / 手机 / Web / 扩展 / 库 / 模型），再按标签（AI 编程 / 视频 / 搜索 / 效率…）
-- 🤖 **自动发现**：每天自动从 GitHub 热门 Topics 抓取新工具
-- ⭐ **手动精选**：靠谱的工具人工加标签和描述
-- 🔍 **搜索筛选**：按分类、标签、关键词快速定位
+直接打开 [treyxu23.github.io/trey-tools](https://treyxu23.github.io/trey-tools)，左边点分类，上面筛标签。
 
-## 🎯 适合谁
-
-- 🧑‍💻 想找好用的开源工具，但不想翻几十个 Awesome List
-- 🤖 关注 AI 工具生态，想比别人早知道新项目
-- 📦 开源爱好者，想发现优秀项目和替代品
+或者你也是工具控——**Star 这个仓库**，每天看一眼 `data/discovered/latest.json`，比刷 Trending 快。
 
 ## 📦 技术栈
 
-- **框架**：[Astro](https://astro.build) — 静态站点生成
-- **样式**：[Tailwind CSS v4](https://tailwindcss.com)
-- **数据**：YAML（手动精选）+ JSON（自动发现）
-- **自动发现**：GitHub Actions 定时任务，每天从热门 Topics 抓取
-- **部署**：GitHub Pages
+- **框架**：[Astro](https://astro.build) — 纯静态，GitHub Pages 秒开
+- **样式**：Tailwind CSS v4，深色主题
+- **数据**：YAML（精选） + JSON（自动发现）
+- **发现引擎**：GitHub Actions 定时抓取 Trending 页面 + Search API
+- **部署**：免费 GitHub Pages，push 自动上线
 
-## 🚀 本地开发
-
-```bash
-# 安装依赖
-npm install
-
-# 开发模式
-npm run dev
-
-# 构建
-npm run build
-```
-
-## ➕ 添加新工具
+## ➕ 加新工具
 
 在 `data/curated/` 下新建一个 `.yaml` 文件：
 
 ```yaml
 slug: your-tool
-name: 你的工具名
+name: 工具名
 repo: owner/repo
-category: cli    # 见 data/categories.yaml
-tags: [ai-coding, productivity]  # 见 data/tags.yaml
-description: 一句话描述这个工具
+category: cli
+tags: [ai-coding, productivity]
+description: 一句话说清楚这工具干嘛的
 added: 2026-06-30
 featured: false
 ```
 
-Push 后自动出现在导航站上。
+Push → 自动上线。
 
 ## 📄 License
 
