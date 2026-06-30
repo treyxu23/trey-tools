@@ -4,7 +4,7 @@
     "name": "openclaw",
     "repo": "openclaw/openclaw",
     "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
-    "stars": 381089,
+    "stars": 381092,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -20,7 +20,7 @@
     "name": "superpowers",
     "repo": "obra/superpowers",
     "description": "An agentic skills framework & software development methodology that works.",
-    "stars": 241960,
+    "stars": 241981,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -36,7 +36,7 @@
     "name": "ECC",
     "repo": "affaan-m/ECC",
     "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "stars": 223678,
+    "stars": 223693,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -55,7 +55,7 @@
     "name": "hermes-agent",
     "repo": "NousResearch/hermes-agent",
     "description": "The agent that grows with you",
-    "stars": 206073,
+    "stars": 206090,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -64,7 +64,7 @@
       "ai-chat"
     ],
     "language": "Python",
-    "pushed_at": "2026-06-30T09:59:49Z",
+    "pushed_at": "2026-06-30T10:38:02Z",
     "discovered": "2026-06-30",
     "source": "topic"
   },
@@ -73,14 +73,14 @@
     "name": "tensorflow",
     "repo": "tensorflow/tensorflow",
     "description": "An Open Source Machine Learning Framework for Everyone",
-    "stars": 196113,
+    "stars": 195981,
     "starsToday": 0,
     "category": "web",
     "tags": [
       "ai-coding"
     ],
     "language": "C++",
-    "pushed_at": "2026-06-30T09:58:32Z",
+    "pushed_at": "2026-06-30T10:39:04Z",
     "discovered": "2026-06-30",
     "source": "topic"
   },
@@ -89,7 +89,7 @@
     "name": "n8n",
     "repo": "n8n-io/n8n",
     "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-    "stars": 194621,
+    "stars": 194627,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -99,7 +99,7 @@
       "self-hosted"
     ],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T09:57:50Z",
+    "pushed_at": "2026-06-30T10:35:38Z",
     "discovered": "2026-06-30",
     "source": "topic"
   },
@@ -108,7 +108,7 @@
     "name": "ohmyzsh",
     "repo": "ohmyzsh/ohmyzsh",
     "description": "🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
-    "stars": 188474,
+    "stars": 188349,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -125,7 +125,7 @@
     "name": "AutoGPT",
     "repo": "Significant-Gravitas/AutoGPT",
     "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-    "stars": 185224,
+    "stars": 185227,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -138,25 +138,11 @@
     "source": "topic"
   },
   {
-    "slug": "sponsors-simplex-chat",
-    "name": "simplex-chat",
-    "repo": "sponsors/simplex-chat",
-    "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
-    "stars": 16070,
-    "starsToday": 1607,
-    "category": "mobile",
-    "tags": [],
-    "language": "Haskell",
-    "pushed_at": "2026-06-30T10:00:33.135Z",
-    "discovered": "2026-06-30",
-    "source": "daily"
-  },
-  {
     "slug": "ollama-ollama",
     "name": "ollama",
     "repo": "ollama/ollama",
     "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-    "stars": 175171,
+    "stars": 175176,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -172,7 +158,7 @@
     "name": "yt-dlp",
     "repo": "yt-dlp/yt-dlp",
     "description": "A feature-rich command-line audio/video downloader",
-    "stars": 174352,
+    "stars": 174358,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -190,7 +176,7 @@
     "name": "prompts.chat",
     "repo": "f/prompts.chat",
     "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
-    "stars": 164552,
+    "stars": 164555,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -208,7 +194,7 @@
     "name": "stable-diffusion-webui",
     "repo": "AUTOMATIC1111/stable-diffusion-webui",
     "description": "Stable Diffusion web UI",
-    "stars": 163946,
+    "stars": 163947,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -225,7 +211,7 @@
     "name": "transformers",
     "repo": "huggingface/transformers",
     "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
-    "stars": 162045,
+    "stars": 162049,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -234,7 +220,7 @@
       "ai-audio"
     ],
     "language": "Python",
-    "pushed_at": "2026-06-30T10:00:35Z",
+    "pushed_at": "2026-06-30T10:04:10Z",
     "discovered": "2026-06-30",
     "source": "topic"
   },
@@ -243,7 +229,7 @@
     "name": "markitdown",
     "repo": "microsoft/markitdown",
     "description": "Python tool for converting files and office documents to Markdown.",
-    "stars": 161487,
+    "stars": 161502,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -255,25 +241,11 @@
     "source": "topic"
   },
   {
-    "slug": "sponsors-msitarzewski",
-    "name": "msitarzewski",
-    "repo": "sponsors/msitarzewski",
-    "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-    "stars": 14250,
-    "starsToday": 1425,
-    "category": "web",
-    "tags": [],
-    "language": "Shell",
-    "pushed_at": "2026-06-30T10:00:33.135Z",
-    "discovered": "2026-06-30",
-    "source": "daily"
-  },
-  {
     "slug": "Snailclimb-JavaGuide",
     "name": "JavaGuide",
     "repo": "Snailclimb/JavaGuide",
     "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
-    "stars": 156712,
+    "stars": 156714,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -284,22 +256,6 @@
     "pushed_at": "2026-06-28T22:50:31Z",
     "discovered": "2026-06-30",
     "source": "topic"
-  },
-  {
-    "slug": "xbtlin-ai-berkshire",
-    "name": "ai-berkshire",
-    "repo": "xbtlin/ai-berkshire",
-    "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
-    "stars": 13860,
-    "starsToday": 1386,
-    "category": "cli",
-    "tags": [
-      "ai-search"
-    ],
-    "language": "Python",
-    "pushed_at": "2026-06-30T10:00:33.136Z",
-    "discovered": "2026-06-30",
-    "source": "daily"
   },
   {
     "slug": "langflow-ai-langflow",
@@ -322,7 +278,7 @@
     "name": "dify",
     "repo": "langgenius/dify",
     "description": "Production-ready platform for agentic workflow development.",
-    "stars": 147094,
+    "stars": 147096,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -331,7 +287,7 @@
       "ai-chat"
     ],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T09:55:22Z",
+    "pushed_at": "2026-06-30T10:38:56Z",
     "discovered": "2026-06-30",
     "source": "topic"
   },
@@ -340,7 +296,7 @@
     "name": "open-webui",
     "repo": "open-webui/open-webui",
     "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-    "stars": 143520,
+    "stars": 143524,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -358,7 +314,7 @@
     "name": "firecrawl",
     "repo": "firecrawl/firecrawl",
     "description": "The API to search, scrape, and interact with the web at scale. 🔥",
-    "stars": 141788,
+    "stars": 141802,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -376,7 +332,7 @@
     "name": "system-prompts-and-models-of-ai-tools",
     "repo": "x1xhlol/system-prompts-and-models-of-ai-tools",
     "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
-    "stars": 141342,
+    "stars": 141346,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -393,7 +349,7 @@
     "name": "langchain",
     "repo": "langchain-ai/langchain",
     "description": "The agent engineering platform.",
-    "stars": 140561,
+    "stars": 140564,
     "starsToday": 0,
     "category": "library",
     "tags": [
@@ -411,7 +367,7 @@
     "name": "excalidraw",
     "repo": "excalidraw/excalidraw",
     "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
-    "stars": 126479,
+    "stars": 126481,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -427,7 +383,7 @@
     "name": "ComfyUI",
     "repo": "Comfy-Org/ComfyUI",
     "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
-    "stars": 118867,
+    "stars": 118872,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -444,7 +400,7 @@
     "name": "spec-kit",
     "repo": "github/spec-kit",
     "description": "💫 Toolkit to help you get started with Spec-Driven Development",
-    "stars": 116532,
+    "stars": 116543,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -460,7 +416,7 @@
     "name": "godot",
     "repo": "godotengine/godot",
     "description": "Godot Engine – Multi-platform 2D and 3D game engine",
-    "stars": 113347,
+    "stars": 113348,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -476,7 +432,7 @@
     "name": "generative-ai-for-beginners",
     "repo": "microsoft/generative-ai-for-beginners",
     "description": "21 Lessons, Get Started Building with Generative AI ",
-    "stars": 112430,
+    "stars": 112432,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -493,7 +449,7 @@
     "name": "cc-switch",
     "repo": "farion1231/cc-switch",
     "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
-    "stars": 111035,
+    "stars": 111054,
     "starsToday": 0,
     "category": "desktop",
     "tags": [
@@ -519,27 +475,11 @@
     "source": "topic"
   },
   {
-    "slug": "browser-use-video-use",
-    "name": "video-use",
-    "repo": "browser-use/video-use",
-    "description": "Edit videos with coding agents",
-    "stars": 9670,
-    "starsToday": 967,
-    "category": "cli",
-    "tags": [
-      "ai-video"
-    ],
-    "language": "Python",
-    "pushed_at": "2026-06-30T10:00:33.136Z",
-    "discovered": "2026-06-30",
-    "source": "daily"
-  },
-  {
     "slug": "google-gemini-gemini-cli",
     "name": "gemini-cli",
     "repo": "google-gemini/gemini-cli",
     "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-    "stars": 105668,
+    "stars": 105667,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -563,7 +503,7 @@
       "ai-coding"
     ],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T09:35:26Z",
+    "pushed_at": "2026-06-30T10:37:19Z",
     "discovered": "2026-06-30",
     "source": "topic"
   },
@@ -572,7 +512,7 @@
     "name": "immich",
     "repo": "immich-app/immich",
     "description": "High performance self-hosted photo and video management solution.",
-    "stars": 104726,
+    "stars": 104727,
     "starsToday": 0,
     "category": "mobile",
     "tags": [
@@ -589,7 +529,7 @@
     "name": "browser-use",
     "repo": "browser-use/browser-use",
     "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
-    "stars": 101568,
+    "stars": 101570,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -605,14 +545,14 @@
     "name": "pytorch",
     "repo": "pytorch/pytorch",
     "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-    "stars": 101223,
+    "stars": 101115,
     "starsToday": 0,
     "category": "cli",
     "tags": [
       "ai-coding"
     ],
     "language": "Python",
-    "pushed_at": "2026-06-30T09:42:08Z",
+    "pushed_at": "2026-06-30T10:37:20Z",
     "discovered": "2026-06-30",
     "source": "topic"
   },
@@ -621,7 +561,7 @@
     "name": "LLMs-from-scratch",
     "repo": "rasbt/LLMs-from-scratch",
     "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
-    "stars": 98190,
+    "stars": 98194,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -646,7 +586,7 @@
       "dev-tools"
     ],
     "language": "TypeScript",
-    "pushed_at": "2026-06-29T16:00:38Z",
+    "pushed_at": "2026-06-30T10:28:13Z",
     "discovered": "2026-06-30",
     "source": "topic"
   },
@@ -673,7 +613,7 @@
     "name": "MoneyPrinterTurbo",
     "repo": "harry0703/MoneyPrinterTurbo",
     "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
-    "stars": 94334,
+    "stars": 94341,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -688,55 +628,27 @@
     "source": "topic"
   },
   {
-    "slug": "HKUDS-Vibe-Trading",
-    "name": "Vibe-Trading",
-    "repo": "HKUDS/Vibe-Trading",
-    "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
-    "stars": 8390,
-    "starsToday": 839,
-    "category": "cli",
-    "tags": [],
-    "language": "Python",
-    "pushed_at": "2026-06-30T10:00:33.137Z",
-    "discovered": "2026-06-30",
-    "source": "daily"
-  },
-  {
     "slug": "microsoft-playwright",
     "name": "playwright",
     "repo": "microsoft/playwright",
     "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ",
-    "stars": 91941,
+    "stars": 91943,
     "starsToday": 0,
     "category": "web",
     "tags": [
       "ai-agent"
     ],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T09:39:15Z",
+    "pushed_at": "2026-06-30T10:04:27Z",
     "discovered": "2026-06-30",
     "source": "topic"
-  },
-  {
-    "slug": "sponsors-altic-dev",
-    "name": "altic-dev",
-    "repo": "sponsors/altic-dev",
-    "description": "FluidVoice - Fastest macOS Offline Dictation app - Voice to Text fully Local. One ⭐ takes us a long way :))",
-    "stars": 8300,
-    "starsToday": 830,
-    "category": "desktop",
-    "tags": [],
-    "language": "Swift",
-    "pushed_at": "2026-06-30T10:00:33.136Z",
-    "discovered": "2026-06-30",
-    "source": "daily"
   },
   {
     "slug": "TauricResearch-TradingAgents",
     "name": "TradingAgents",
     "repo": "TauricResearch/TradingAgents",
     "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-    "stars": 89894,
+    "stars": 89898,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -785,7 +697,7 @@
     "name": "ML-For-Beginners",
     "repo": "microsoft/ML-For-Beginners",
     "description": "12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all",
-    "stars": 87541,
+    "stars": 87543,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -801,7 +713,7 @@
     "name": "sherlock",
     "repo": "sherlock-project/sherlock",
     "description": "Hunt down social media accounts by username across social networks",
-    "stars": 85903,
+    "stars": 85905,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -817,14 +729,14 @@
     "name": "Stirling-PDF",
     "repo": "Stirling-Tools/Stirling-PDF",
     "description": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
-    "stars": 85321,
+    "stars": 85325,
     "starsToday": 0,
     "category": "web",
     "tags": [
       "self-hosted"
     ],
     "language": "Java",
-    "pushed_at": "2026-06-30T09:52:40Z",
+    "pushed_at": "2026-06-30T10:36:15Z",
     "discovered": "2026-06-30",
     "source": "topic"
   },
@@ -833,14 +745,14 @@
     "name": "vllm",
     "repo": "vllm-project/vllm",
     "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
-    "stars": 84884,
+    "stars": 84888,
     "starsToday": 0,
     "category": "cli",
     "tags": [
       "ai-chat"
     ],
     "language": "Python",
-    "pushed_at": "2026-06-30T09:57:28Z",
+    "pushed_at": "2026-06-30T10:17:43Z",
     "discovered": "2026-06-30",
     "source": "topic"
   },
@@ -849,7 +761,7 @@
     "name": "cs-video-courses",
     "repo": "Developer-Y/cs-video-courses",
     "description": "List of Computer Science courses with video lectures.",
-    "stars": 82134,
+    "stars": 82138,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -882,7 +794,7 @@
     "name": "llm-course",
     "repo": "mlabonne/llm-course",
     "description": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
-    "stars": 80552,
+    "stars": 80554,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -899,7 +811,7 @@
     "name": "lazygit",
     "repo": "jesseduffield/lazygit",
     "description": "simple terminal UI for git commands",
-    "stars": 79841,
+    "stars": 79842,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -927,741 +839,600 @@
     "source": "topic"
   },
   {
-    "slug": "netdata-netdata",
-    "name": "netdata",
-    "repo": "netdata/netdata",
-    "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-    "stars": 79446,
-    "starsToday": 0,
-    "category": "cli",
-    "tags": [
-      "ai-coding"
-    ],
-    "language": "Go",
-    "pushed_at": "2026-06-30T09:34:41Z",
+    "slug": "sponsors-simplex-chat",
+    "name": "simplex-chat",
+    "repo": "sponsors/simplex-chat",
+    "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
+    "stars": 16070,
+    "starsToday": 1607,
+    "category": "mobile",
+    "tags": [],
+    "language": "Haskell",
+    "pushed_at": "2026-06-30T10:39:00.657Z",
     "discovered": "2026-06-30",
-    "source": "topic"
+    "source": "daily"
   },
   {
-    "slug": "lobehub-lobehub",
-    "name": "lobehub",
-    "repo": "lobehub/lobehub",
-    "description": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
-    "stars": 79255,
-    "starsToday": 0,
+    "slug": "sponsors-msitarzewski",
+    "name": "msitarzewski",
+    "repo": "sponsors/msitarzewski",
+    "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+    "stars": 14250,
+    "starsToday": 1425,
     "category": "web",
+    "tags": [],
+    "language": "Shell",
+    "pushed_at": "2026-06-30T10:39:00.658Z",
+    "discovered": "2026-06-30",
+    "source": "daily"
+  },
+  {
+    "slug": "xbtlin-ai-berkshire",
+    "name": "ai-berkshire",
+    "repo": "xbtlin/ai-berkshire",
+    "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
+    "stars": 13860,
+    "starsToday": 1386,
+    "category": "cli",
     "tags": [
-      "ai-agent",
-      "ai-coding",
-      "ai-chat"
+      "ai-search"
     ],
+    "language": "Python",
+    "pushed_at": "2026-06-30T10:39:00.658Z",
+    "discovered": "2026-06-30",
+    "source": "daily"
+  },
+  {
+    "slug": "browser-use-video-use",
+    "name": "video-use",
+    "repo": "browser-use/video-use",
+    "description": "Edit videos with coding agents",
+    "stars": 9670,
+    "starsToday": 967,
+    "category": "cli",
+    "tags": [
+      "ai-video"
+    ],
+    "language": "Python",
+    "pushed_at": "2026-06-30T10:39:00.659Z",
+    "discovered": "2026-06-30",
+    "source": "daily"
+  },
+  {
+    "slug": "HKUDS-Vibe-Trading",
+    "name": "Vibe-Trading",
+    "repo": "HKUDS/Vibe-Trading",
+    "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+    "stars": 8390,
+    "starsToday": 839,
+    "category": "cli",
+    "tags": [],
+    "language": "Python",
+    "pushed_at": "2026-06-30T10:39:00.659Z",
+    "discovered": "2026-06-30",
+    "source": "daily"
+  },
+  {
+    "slug": "sponsors-altic-dev",
+    "name": "altic-dev",
+    "repo": "sponsors/altic-dev",
+    "description": "FluidVoice - Fastest macOS Offline Dictation app - Voice to Text fully Local. One ⭐ takes us a long way :))",
+    "stars": 8300,
+    "starsToday": 830,
+    "category": "desktop",
+    "tags": [],
+    "language": "Swift",
+    "pushed_at": "2026-06-30T10:39:00.658Z",
+    "discovered": "2026-06-30",
+    "source": "daily"
+  },
+  {
+    "slug": "commaai-openpilot",
+    "name": "openpilot",
+    "repo": "commaai/openpilot",
+    "description": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
+    "stars": 4580,
+    "starsToday": 458,
+    "category": "cli",
+    "tags": [],
+    "language": "Python",
+    "pushed_at": "2026-06-30T10:39:00.658Z",
+    "discovered": "2026-06-30",
+    "source": "daily"
+  },
+  {
+    "slug": "sponsors-cupy",
+    "name": "cupy",
+    "repo": "sponsors/cupy",
+    "description": "NumPy &amp; SciPy for GPU",
+    "stars": 3520,
+    "starsToday": 352,
+    "category": "cli",
+    "tags": [],
+    "language": "Python",
+    "pushed_at": "2026-06-30T10:39:00.658Z",
+    "discovered": "2026-06-30",
+    "source": "daily"
+  },
+  {
+    "slug": "0xNyk-council-of-high-intelligence",
+    "name": "council-of-high-intelligence",
+    "repo": "0xNyk/council-of-high-intelligence",
+    "description": "18 AI personas deliberate your hardest decisions across multiple LLM providers. Aristotle, Feynman, Kahneman, Torvalds &amp; more — structured multi-round deliberation with genuine model diversity. One command: /council",
+    "stars": 3310,
+    "starsToday": 331,
+    "category": "web",
+    "tags": [],
+    "language": "Shell",
+    "pushed_at": "2026-06-30T10:39:00.659Z",
+    "discovered": "2026-06-30",
+    "source": "daily"
+  },
+  {
+    "slug": "refactoringhq-tolaria",
+    "name": "tolaria",
+    "repo": "refactoringhq/tolaria",
+    "description": "Desktop app to manage markdown knowledge bases",
+    "stars": 2800,
+    "starsToday": 280,
+    "category": "desktop",
+    "tags": [],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T09:59:18Z",
+    "pushed_at": "2026-06-30T10:39:00.659Z",
     "discovered": "2026-06-30",
-    "source": "topic"
+    "source": "daily"
   },
   {
-    "slug": "OpenHands-OpenHands",
-    "name": "OpenHands",
-    "repo": "OpenHands/OpenHands",
-    "description": "🙌 OpenHands: AI-Driven Development",
-    "stars": 78776,
+    "slug": "sponsors-soxoj",
+    "name": "soxoj",
+    "repo": "sponsors/soxoj",
+    "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+    "stars": 2240,
+    "starsToday": 224,
+    "category": "cli",
+    "tags": [],
+    "language": "Python",
+    "pushed_at": "2026-06-30T10:39:00.658Z",
+    "discovered": "2026-06-30",
+    "source": "daily"
+  },
+  {
+    "slug": "veracrypt-VeraCrypt",
+    "name": "VeraCrypt",
+    "repo": "veracrypt/VeraCrypt",
+    "description": "Disk encryption with strong security based on TrueCrypt",
+    "stars": 1860,
+    "starsToday": 186,
+    "category": "web",
+    "tags": [],
+    "language": "C",
+    "pushed_at": "2026-06-30T10:39:00.659Z",
+    "discovered": "2026-06-30",
+    "source": "daily"
+  },
+  {
+    "slug": "sponsors-logto-io",
+    "name": "logto-io",
+    "repo": "sponsors/logto-io",
+    "description": "🧑‍🚀 Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC.",
+    "stars": 1580,
+    "starsToday": 158,
+    "category": "web",
+    "tags": [],
+    "language": "TypeScript",
+    "pushed_at": "2026-06-30T10:39:00.658Z",
+    "discovered": "2026-06-30",
+    "source": "daily"
+  },
+  {
+    "slug": "Unclecheng-li-VulnClaw",
+    "name": "VulnClaw",
+    "repo": "Unclecheng-li/VulnClaw",
+    "description": "基于 AI Agent + MCP 工具链 + 渗透 Skill 编排， 配合大语言模型， 自然语言输入 → 自动完成「信息收集 → 漏洞发现 → 漏洞利用 → 报告生成」全流程。",
+    "stars": 1290,
+    "starsToday": 129,
+    "category": "cli",
+    "tags": [],
+    "language": "Python",
+    "pushed_at": "2026-06-30T10:39:00.659Z",
+    "discovered": "2026-06-30",
+    "source": "daily"
+  },
+  {
+    "slug": "sponsors-calesthio",
+    "name": "calesthio",
+    "repo": "sponsors/calesthio",
+    "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+    "stars": 0,
     "starsToday": 0,
     "category": "cli",
     "tags": [
-      "ai-agent",
-      "ai-chat",
-      "dev-tools"
+      "ai-video"
     ],
     "language": "Python",
-    "pushed_at": "2026-06-30T09:21:42Z",
+    "pushed_at": "2026-06-30T10:39:03.731Z",
     "discovered": "2026-06-30",
-    "source": "topic"
+    "source": "weekly"
   },
   {
-    "slug": "d2l-ai-d2l-zh",
-    "name": "d2l-zh",
-    "repo": "d2l-ai/d2l-zh",
-    "description": "《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。",
-    "stars": 78591,
-    "starsToday": 0,
-    "category": "cli",
-    "tags": [
-      "ai-coding"
-    ],
-    "language": "Python",
-    "pushed_at": "2024-07-30T09:32:19Z",
-    "discovered": "2026-06-30",
-    "source": "topic"
-  },
-  {
-    "slug": "JuliusBrussee-caveman",
-    "name": "caveman",
-    "repo": "JuliusBrussee/caveman",
-    "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
-    "stars": 78113,
+    "slug": "DeusData-codebase-memory-mcp",
+    "name": "codebase-memory-mcp",
+    "repo": "DeusData/codebase-memory-mcp",
+    "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+    "stars": 0,
     "starsToday": 0,
     "category": "web",
     "tags": [
-      "ai-coding",
-      "ai-chat"
-    ],
-    "language": "JavaScript",
-    "pushed_at": "2026-06-12T13:51:06Z",
-    "discovered": "2026-06-30",
-    "source": "topic"
-  },
-  {
-    "slug": "dair-ai-Prompt-Engineering-Guide",
-    "name": "Prompt-Engineering-Guide",
-    "repo": "dair-ai/Prompt-Engineering-Guide",
-    "description": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
-    "stars": 76088,
-    "starsToday": 0,
-    "category": "web",
-    "tags": [
-      "ai-agent",
-      "ai-chat",
       "ai-search"
-    ],
-    "language": "MDX",
-    "pushed_at": "2026-03-11T20:09:13Z",
-    "discovered": "2026-06-30",
-    "source": "topic"
-  },
-  {
-    "slug": "bytedance-deer-flow",
-    "name": "deer-flow",
-    "repo": "bytedance/deer-flow",
-    "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-    "stars": 75540,
-    "starsToday": 0,
-    "category": "cli",
-    "tags": [
-      "ai-agent",
-      "ai-coding",
-      "ai-chat",
-      "ai-search"
-    ],
-    "language": "Python",
-    "pushed_at": "2026-06-30T06:55:33Z",
-    "discovered": "2026-06-30",
-    "source": "topic"
-  },
-  {
-    "slug": "redis-redis",
-    "name": "redis",
-    "repo": "redis/redis",
-    "description": "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.",
-    "stars": 75170,
-    "starsToday": 0,
-    "category": "web",
-    "tags": [
-      "open-source-alt"
     ],
     "language": "C",
-    "pushed_at": "2026-06-30T00:41:44Z",
+    "pushed_at": "2026-06-30T10:39:03.731Z",
     "discovered": "2026-06-30",
-    "source": "topic"
+    "source": "weekly"
   },
   {
-    "slug": "tesseract-ocr-tesseract",
-    "name": "tesseract",
-    "repo": "tesseract-ocr/tesseract",
-    "description": "Tesseract Open Source OCR Engine (main repository)",
-    "stars": 75017,
+    "slug": "google-labs-code-design.md",
+    "name": "design.md",
+    "repo": "google-labs-code/design.md",
+    "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+    "stars": 0,
     "starsToday": 0,
     "category": "web",
-    "tags": [
-      "ai-coding"
-    ],
-    "language": "C++",
-    "pushed_at": "2026-06-27T16:23:38Z",
-    "discovered": "2026-06-30",
-    "source": "topic"
-  },
-  {
-    "slug": "openai-openai-cookbook",
-    "name": "openai-cookbook",
-    "repo": "openai/openai-cookbook",
-    "description": "Examples and guides for using the OpenAI API",
-    "stars": 74472,
-    "starsToday": 0,
-    "category": "web",
-    "tags": [
-      "ai-chat"
-    ],
-    "language": "Jupyter Notebook",
-    "pushed_at": "2026-06-26T02:22:45Z",
-    "discovered": "2026-06-30",
-    "source": "topic"
-  },
-  {
-    "slug": "nexu-io-open-design",
-    "name": "open-design",
-    "repo": "nexu-io/open-design",
-    "description": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
-    "stars": 73127,
-    "starsToday": 0,
-    "category": "desktop",
-    "tags": [
-      "ai-video",
-      "ai-image"
-    ],
-    "language": "TypeScript",
-    "pushed_at": "2026-06-30T09:56:16Z",
-    "discovered": "2026-06-30",
-    "source": "topic"
-  },
-  {
-    "slug": "AppFlowy-IO-AppFlowy",
-    "name": "AppFlowy",
-    "repo": "AppFlowy-IO/AppFlowy",
-    "description": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.",
-    "stars": 73110,
-    "starsToday": 0,
-    "category": "web",
-    "tags": [
-      "productivity"
-    ],
-    "language": "Dart",
-    "pushed_at": "2026-06-26T02:35:46Z",
-    "discovered": "2026-06-30",
-    "source": "topic"
-  },
-  {
-    "slug": "thedaviddias-Front-End-Checklist",
-    "name": "Front-End-Checklist",
-    "repo": "thedaviddias/Front-End-Checklist",
-    "description": "🗂 The essential checklist for modern web development, for humans and AI agents",
-    "stars": 73079,
-    "starsToday": 0,
-    "category": "web",
-    "tags": [
-      "ai-agent"
-    ],
-    "language": "MDX",
-    "pushed_at": "2026-06-18T03:46:44Z",
-    "discovered": "2026-06-30",
-    "source": "topic"
-  },
-  {
-    "slug": "hiyouga-LlamaFactory",
-    "name": "LlamaFactory",
-    "repo": "hiyouga/LlamaFactory",
-    "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
-    "stars": 72829,
-    "starsToday": 0,
-    "category": "cli",
-    "tags": [
-      "ai-agent",
-      "ai-coding",
-      "ai-chat"
-    ],
-    "language": "Python",
-    "pushed_at": "2026-06-30T09:15:29Z",
-    "discovered": "2026-06-30",
-    "source": "topic"
-  },
-  {
-    "slug": "daytonaio-daytona",
-    "name": "daytona",
-    "repo": "daytonaio/daytona",
-    "description": "Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code",
-    "stars": 72351,
-    "starsToday": 0,
-    "category": "web",
-    "tags": [
-      "ai-coding",
-      "dev-tools"
-    ],
-    "language": "Unknown",
-    "pushed_at": "2026-06-25T23:16:57Z",
-    "discovered": "2026-06-30",
-    "source": "topic"
-  },
-  {
-    "slug": "binary-husky-gpt_academic",
-    "name": "gpt_academic",
-    "repo": "binary-husky/gpt_academic",
-    "description": "为GPT/GLM等LLM大语言模型提供实用化交互接口，特别优化论文阅读/润色/写作体验，模块化设计，支持自定义快捷按钮&函数插件，支持Python和C++等项目剖析&自译解功能，PDF/LaTex论文翻译&总结功能，支持并行问询多种LLM模型，支持chatglm3等本地模型。接入通义千问, deepseekcoder, 讯飞星火, 文心一言, llama2, rwkv, claude2, moss等。",
-    "stars": 71009,
-    "starsToday": 0,
-    "category": "cli",
-    "tags": [
-      "ai-chat",
-      "ai-text"
-    ],
-    "language": "Python",
-    "pushed_at": "2026-01-25T12:33:10Z",
-    "discovered": "2026-06-30",
-    "source": "topic"
-  },
-  {
-    "slug": "OpenBB-finance-OpenBB",
-    "name": "OpenBB",
-    "repo": "OpenBB-finance/OpenBB",
-    "description": "Financial data platform for analysts, quants and AI agents.",
-    "stars": 69864,
-    "starsToday": 0,
-    "category": "cli",
-    "tags": [
-      "ai-coding"
-    ],
-    "language": "Python",
-    "pushed_at": "2026-06-29T15:33:52Z",
-    "discovered": "2026-06-30",
-    "source": "topic"
-  },
-  {
-    "slug": "shareAI-lab-learn-claude-code",
-    "name": "learn-claude-code",
-    "repo": "shareAI-lab/learn-claude-code",
-    "description": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
-    "stars": 69136,
-    "starsToday": 0,
-    "category": "cli",
-    "tags": [
-      "ai-agent",
-      "ai-chat"
-    ],
-    "language": "Python",
-    "pushed_at": "2026-06-26T19:36:35Z",
-    "discovered": "2026-06-30",
-    "source": "topic"
-  },
-  {
-    "slug": "FoundationAgents-MetaGPT",
-    "name": "MetaGPT",
-    "repo": "FoundationAgents/MetaGPT",
-    "description": "🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
-    "stars": 69129,
-    "starsToday": 0,
-    "category": "cli",
-    "tags": [
-      "ai-agent",
-      "ai-chat"
-    ],
-    "language": "Python",
-    "pushed_at": "2026-01-21T10:12:33Z",
-    "discovered": "2026-06-30",
-    "source": "topic"
-  },
-  {
-    "slug": "DietrichGebert-ponytail",
-    "name": "ponytail",
-    "repo": "DietrichGebert/ponytail",
-    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "stars": 68180,
-    "starsToday": 0,
-    "category": "web",
-    "tags": [
-      "dev-tools",
-      "ai-chat"
-    ],
-    "language": "JavaScript",
-    "pushed_at": "2026-06-30T00:04:50Z",
-    "discovered": "2026-06-30",
-    "source": "topic"
-  },
-  {
-    "slug": "unslothai-unsloth",
-    "name": "unsloth",
-    "repo": "unslothai/unsloth",
-    "description": "Unsloth Studio is a web UI for training and running open models like Gemma 4, Qwen3.6, DeepSeek, gpt-oss locally.",
-    "stars": 67641,
-    "starsToday": 0,
-    "category": "web",
-    "tags": [
-      "ai-agent",
-      "ai-chat",
-      "self-hosted"
-    ],
-    "language": "Python",
-    "pushed_at": "2026-06-30T09:14:55Z",
-    "discovered": "2026-06-30",
-    "source": "topic"
-  },
-  {
-    "slug": "D4Vinci-Scrapling",
-    "name": "Scrapling",
-    "repo": "D4Vinci/Scrapling",
-    "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
-    "stars": 67283,
-    "starsToday": 0,
-    "category": "cli",
-    "tags": [
-      "ai-coding",
-      "ai-agent"
-    ],
-    "language": "Python",
-    "pushed_at": "2026-06-29T22:21:14Z",
-    "discovered": "2026-06-30",
-    "source": "topic"
-  },
-  {
-    "slug": "rtk-ai-rtk",
-    "name": "rtk",
-    "repo": "rtk-ai/rtk",
-    "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
-    "stars": 67173,
-    "starsToday": 0,
-    "category": "cli",
-    "tags": [
-      "dev-tools",
-      "ai-chat",
-      "open-source-alt",
-      "productivity"
-    ],
-    "language": "Rust",
-    "pushed_at": "2026-06-29T12:24:34Z",
-    "discovered": "2026-06-30",
-    "source": "topic"
-  },
-  {
-    "slug": "labmlai-annotated_deep_learning_paper_implementations",
-    "name": "annotated_deep_learning_paper_implementations",
-    "repo": "labmlai/annotated_deep_learning_paper_implementations",
-    "description": "🧑‍🏫 60+ Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, vit, ...), optimizers (adam, adabelief, sophia, ...), gans(cyclegan, stylegan2, ...), 🎮 reinforcement learning (ppo, dqn), capsnet, distillation, ... 🧠",
-    "stars": 67012,
-    "starsToday": 0,
-    "category": "cli",
-    "tags": [
-      "ai-coding"
-    ],
-    "language": "Python",
-    "pushed_at": "2026-01-22T04:26:00Z",
-    "discovered": "2026-06-30",
-    "source": "topic"
-  },
-  {
-    "slug": "scikit-learn-scikit-learn",
-    "name": "scikit-learn",
-    "repo": "scikit-learn/scikit-learn",
-    "description": "scikit-learn: machine learning in Python",
-    "stars": 66631,
-    "starsToday": 0,
-    "category": "cli",
-    "tags": [
-      "ai-coding"
-    ],
-    "language": "Python",
-    "pushed_at": "2026-06-29T17:22:15Z",
-    "discovered": "2026-06-30",
-    "source": "topic"
-  },
-  {
-    "slug": "xtekky-gpt4free",
-    "name": "gpt4free",
-    "repo": "xtekky/gpt4free",
-    "description": "The official gpt4free repository | various collection of powerful language models | opus 4.6 gpt 5.3 kimi 2.5 deepseek v3.2 gemini 3",
-    "stars": 66460,
-    "starsToday": 0,
-    "category": "cli",
-    "tags": [
-      "ai-chat"
-    ],
-    "language": "Python",
-    "pushed_at": "2026-06-26T02:58:20Z",
-    "discovered": "2026-06-30",
-    "source": "topic"
-  },
-  {
-    "slug": "gorhill-uBlock",
-    "name": "uBlock",
-    "repo": "gorhill/uBlock",
-    "description": "uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.",
-    "stars": 65866,
-    "starsToday": 0,
-    "category": "extension",
     "tags": [],
-    "language": "JavaScript",
-    "pushed_at": "2026-06-28T20:00:49Z",
+    "language": "TypeScript",
+    "pushed_at": "2026-06-30T10:39:03.731Z",
     "discovered": "2026-06-30",
-    "source": "topic"
+    "source": "weekly"
   },
   {
-    "slug": "BurntSushi-ripgrep",
-    "name": "ripgrep",
-    "repo": "BurntSushi/ripgrep",
-    "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
-    "stars": 65602,
+    "slug": "kunchenguid-no-mistakes",
+    "name": "no-mistakes",
+    "repo": "kunchenguid/no-mistakes",
+    "description": "git push no-mistakes",
+    "stars": 0,
     "starsToday": 0,
     "category": "cli",
-    "tags": [
-      "dev-tools",
-      "ai-search"
-    ],
-    "language": "Rust",
-    "pushed_at": "2026-06-21T12:48:16Z",
+    "tags": [],
+    "language": "Go",
+    "pushed_at": "2026-06-30T10:39:03.731Z",
     "discovered": "2026-06-30",
-    "source": "topic"
+    "source": "weekly"
   },
   {
-    "slug": "facebook-docusaurus",
-    "name": "docusaurus",
-    "repo": "facebook/docusaurus",
-    "description": "Easy to maintain open source documentation websites.",
-    "stars": 65450,
+    "slug": "JCodesMore-ai-website-cloner-template",
+    "name": "ai-website-cloner-template",
+    "repo": "JCodesMore/ai-website-cloner-template",
+    "description": "Clone any website with one command using AI coding agents",
+    "stars": 0,
     "starsToday": 0,
     "category": "web",
-    "tags": [
-      "open-source-alt"
-    ],
+    "tags": [],
     "language": "TypeScript",
-    "pushed_at": "2026-06-26T20:32:49Z",
+    "pushed_at": "2026-06-30T10:39:03.731Z",
     "discovered": "2026-06-30",
-    "source": "topic"
+    "source": "weekly"
   },
   {
-    "slug": "localstack-localstack",
-    "name": "localstack",
-    "repo": "localstack/localstack",
-    "description": "💻 A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline",
-    "stars": 65082,
+    "slug": "interviewstreet-hiring-agent",
+    "name": "hiring-agent",
+    "repo": "interviewstreet/hiring-agent",
+    "description": "AI agent to evaluate and score resumes.",
+    "stars": 0,
     "starsToday": 0,
     "category": "cli",
-    "tags": [
-      "dev-tools"
-    ],
+    "tags": [],
     "language": "Python",
-    "pushed_at": "2026-03-23T08:52:01Z",
+    "pushed_at": "2026-06-30T10:39:03.731Z",
     "discovered": "2026-06-30",
-    "source": "topic"
+    "source": "weekly"
   },
   {
-    "slug": "code-yeongyu-oh-my-openagent",
-    "name": "oh-my-openagent",
-    "repo": "code-yeongyu/oh-my-openagent",
-    "description": "omo/lazycodex: The coding agent for tokenmaxxers;the one and only agent harness for complex codebases. For your Codex, for your OpenCode",
-    "stars": 64332,
-    "starsToday": 0,
-    "category": "web",
-    "tags": [
-      "ai-coding",
-      "ai-chat"
-    ],
-    "language": "TypeScript",
-    "pushed_at": "2026-06-30T10:00:14Z",
-    "discovered": "2026-06-30",
-    "source": "topic"
-  },
-  {
-    "slug": "keras-team-keras",
-    "name": "keras",
-    "repo": "keras-team/keras",
-    "description": "Deep Learning for humans",
-    "stars": 64101,
+    "slug": "ZhuLinsen-daily_stock_analysis",
+    "name": "daily_stock_analysis",
+    "repo": "ZhuLinsen/daily_stock_analysis",
+    "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+    "stars": 0,
     "starsToday": 0,
     "category": "cli",
-    "tags": [
-      "ai-coding"
-    ],
+    "tags": [],
     "language": "Python",
-    "pushed_at": "2026-06-30T03:44:57Z",
+    "pushed_at": "2026-06-30T10:39:03.731Z",
     "discovered": "2026-06-30",
-    "source": "topic"
+    "source": "weekly"
   },
   {
-    "slug": "tldr-pages-tldr",
-    "name": "tldr",
-    "repo": "tldr-pages/tldr",
-    "description": "Collaborative cheatsheets for console commands 📚.",
-    "stars": 62991,
+    "slug": "stablyai-orca",
+    "name": "orca",
+    "repo": "stablyai/orca",
+    "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
+    "stars": 0,
     "starsToday": 0,
     "category": "mobile",
-    "tags": [
-      "dev-tools"
-    ],
-    "language": "Markdown",
-    "pushed_at": "2026-06-30T02:33:23Z",
+    "tags": [],
+    "language": "TypeScript",
+    "pushed_at": "2026-06-30T10:39:03.732Z",
     "discovered": "2026-06-30",
-    "source": "topic"
+    "source": "weekly"
   },
   {
-    "slug": "datawhalechina-hello-agents",
-    "name": "hello-agents",
-    "repo": "datawhalechina/hello-agents",
-    "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
-    "stars": 62863,
+    "slug": "Panniantong-Agent-Reach",
+    "name": "Agent-Reach",
+    "repo": "Panniantong/Agent-Reach",
+    "description": "Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+    "stars": 0,
     "starsToday": 0,
     "category": "cli",
     "tags": [
-      "ai-agent",
-      "ai-chat"
+      "ai-search"
     ],
     "language": "Python",
-    "pushed_at": "2026-06-24T17:33:54Z",
+    "pushed_at": "2026-06-30T10:39:03.732Z",
     "discovered": "2026-06-30",
-    "source": "topic"
+    "source": "weekly"
   },
   {
-    "slug": "usememos-memos",
-    "name": "memos",
-    "repo": "usememos/memos",
-    "description": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
-    "stars": 61168,
+    "slug": "alibaba-page-agent",
+    "name": "page-agent",
+    "repo": "alibaba/page-agent",
+    "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+    "stars": 0,
     "starsToday": 0,
     "category": "web",
-    "tags": [
-      "productivity",
-      "self-hosted"
-    ],
+    "tags": [],
+    "language": "TypeScript",
+    "pushed_at": "2026-06-30T10:39:03.732Z",
+    "discovered": "2026-06-30",
+    "source": "weekly"
+  },
+  {
+    "slug": "sponsors-mukul975",
+    "name": "mukul975",
+    "repo": "sponsors/mukul975",
+    "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF &amp; MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 29 security domains · Apache 2.0",
+    "stars": 0,
+    "starsToday": 0,
+    "category": "cli",
+    "tags": [],
+    "language": "Python",
+    "pushed_at": "2026-06-30T10:39:03.732Z",
+    "discovered": "2026-06-30",
+    "source": "weekly"
+  },
+  {
+    "slug": "ravachol-kew",
+    "name": "kew",
+    "repo": "ravachol/kew",
+    "description": "A Terminal Music Player",
+    "stars": 2820,
+    "starsToday": 0,
+    "category": "desktop",
+    "tags": [],
+    "language": "C",
+    "pushed_at": "2026-06-30T08:22:01Z",
+    "discovered": "2026-06-30",
+    "source": "hn"
+  },
+  {
+    "slug": "workweave-router",
+    "name": "router",
+    "repo": "workweave/router",
+    "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.",
+    "stars": 618,
+    "starsToday": 0,
+    "category": "cli",
+    "tags": [],
     "language": "Go",
-    "pushed_at": "2026-06-29T14:47:30Z",
+    "pushed_at": "2026-06-30T05:43:44Z",
     "discovered": "2026-06-30",
-    "source": "topic"
+    "source": "hn"
   },
   {
-    "slug": "mem0ai-mem0",
-    "name": "mem0",
-    "repo": "mem0ai/mem0",
-    "description": "Universal memory layer for AI Agents",
-    "stars": 59755,
+    "slug": "kageroumado-adrafinil",
+    "name": "adrafinil",
+    "repo": "kageroumado/adrafinil",
+    "description": "Keep your Mac awake only while AI coding agents are working",
+    "stars": 272,
+    "starsToday": 0,
+    "category": "desktop",
+    "tags": [],
+    "language": "Swift",
+    "pushed_at": "2026-06-29T00:22:08Z",
+    "discovered": "2026-06-30",
+    "source": "hn"
+  },
+  {
+    "slug": "dbos-inc-dbosify-py",
+    "name": "dbosify-py",
+    "repo": "dbos-inc/dbosify-py",
+    "description": "Postgres-Backed Drop-in Temporal Replacement",
+    "stars": 182,
     "starsToday": 0,
     "category": "cli",
-    "tags": [
-      "ai-coding",
-      "ai-chat"
-    ],
+    "tags": [],
     "language": "Python",
-    "pushed_at": "2026-06-30T08:39:45Z",
+    "pushed_at": "2026-06-24T15:02:46Z",
     "discovered": "2026-06-30",
-    "source": "topic"
+    "source": "hn"
   },
   {
-    "slug": "sharkdp-bat",
-    "name": "bat",
-    "repo": "sharkdp/bat",
-    "description": "A cat(1) clone with wings.",
-    "stars": 59483,
+    "slug": "freecomputinglab-rheo",
+    "name": "rheo",
+    "repo": "freecomputinglab/rheo",
+    "description": "Typesetting and static site engine based on Typst",
+    "stars": 168,
     "starsToday": 0,
     "category": "cli",
-    "tags": [
-      "dev-tools"
-    ],
+    "tags": [],
     "language": "Rust",
-    "pushed_at": "2026-06-28T19:25:37Z",
+    "pushed_at": "2026-06-30T09:43:33Z",
     "discovered": "2026-06-30",
-    "source": "topic"
+    "source": "hn"
   },
   {
-    "slug": "microsoft-autogen",
-    "name": "autogen",
-    "repo": "microsoft/autogen",
-    "description": "A programming framework for agentic AI",
-    "stars": 59373,
+    "slug": "ayushh0110-ScreenMind",
+    "name": "ScreenMind",
+    "repo": "ayushh0110/ScreenMind",
+    "description": " AI-powered screen memory — captures, analyzes, and lets you search/chat your screen history. Powered by Gemma 4 . 100% local, 100% private.",
+    "stars": 158,
     "starsToday": 0,
-    "category": "library",
+    "category": "cli",
     "tags": [
       "ai-coding",
-      "ai-chat"
+      "productivity",
+      "ai-search"
     ],
     "language": "Python",
-    "pushed_at": "2026-04-15T11:59:09Z",
+    "pushed_at": "2026-06-29T01:29:56Z",
     "discovered": "2026-06-30",
-    "source": "topic"
+    "source": "hn"
   },
   {
-    "slug": "pathwaycom-llm-app",
-    "name": "llm-app",
-    "repo": "pathwaycom/llm-app",
-    "description": "Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly.⚡Always in sync with Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs, and more.",
-    "stars": 59178,
+    "slug": "vmxdev-xenoeye",
+    "name": "xenoeye",
+    "repo": "vmxdev/xenoeye",
+    "description": "Lightweight Netflow/IPFIX/sFlow collector and analyzer",
+    "stars": 140,
+    "starsToday": 0,
+    "category": "web",
+    "tags": [],
+    "language": "C++",
+    "pushed_at": "2026-06-07T20:34:22Z",
+    "discovered": "2026-06-30",
+    "source": "hn"
+  },
+  {
+    "slug": "JustVugg-nanoeuler",
+    "name": "nanoeuler",
+    "repo": "JustVugg/nanoeuler",
+    "description": "GPT-2-style LLM built from scratch in C/CUDA with hand-written backprop, BPE tokenizer, FlashAttention, pretraining, and SFT.",
+    "stars": 74,
     "starsToday": 0,
     "category": "web",
     "tags": [
       "ai-chat",
-      "ai-coding",
-      "ai-search"
-    ],
-    "language": "Jupyter Notebook",
-    "pushed_at": "2026-06-29T21:18:26Z",
-    "discovered": "2026-06-30",
-    "source": "topic"
-  },
-  {
-    "slug": "ultralytics-ultralytics",
-    "name": "ultralytics",
-    "repo": "ultralytics/ultralytics",
-    "description": "Ultralytics YOLO26, YOLO11, YOLOv8 — object detection, instance segmentation, semantic segmentation, image classification, pose estimation, object tracking",
-    "stars": 58966,
-    "starsToday": 0,
-    "category": "cli",
-    "tags": [
-      "ai-coding",
-      "ai-image"
-    ],
-    "language": "Python",
-    "pushed_at": "2026-06-30T09:45:27Z",
-    "discovered": "2026-06-30",
-    "source": "topic"
-  },
-  {
-    "slug": "tw93-Pake",
-    "name": "Pake",
-    "repo": "tw93/Pake",
-    "description": "🤱🏻 Turn any webpage into a desktop app with one command.",
-    "stars": 58619,
-    "starsToday": 0,
-    "category": "desktop",
-    "tags": [
-      "ai-chat"
-    ],
-    "language": "Rust",
-    "pushed_at": "2026-06-28T01:14:08Z",
-    "discovered": "2026-06-30",
-    "source": "topic"
-  },
-  {
-    "slug": "ultralytics-yolov5",
-    "name": "yolov5",
-    "repo": "ultralytics/yolov5",
-    "description": "Ultralytics YOLOv5 in PyTorch > ONNX > CoreML > TFLite",
-    "stars": 57584,
-    "starsToday": 0,
-    "category": "mobile",
-    "tags": [
       "ai-coding"
     ],
-    "language": "Python",
-    "pushed_at": "2026-06-28T20:49:06Z",
+    "language": "Cuda",
+    "pushed_at": "2026-06-18T06:10:51Z",
     "discovered": "2026-06-30",
-    "source": "topic"
+    "source": "hn"
   },
   {
-    "slug": "coollabsio-coolify",
-    "name": "coolify",
-    "repo": "coollabsio/coolify",
-    "description": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers.",
-    "stars": 57551,
+    "slug": "mskrasnov-FSM",
+    "name": "FSM",
+    "repo": "mskrasnov/FSM",
+    "description": "FSM is a simple GUI program to get information about software and hardware of Linux PC",
+    "stars": 57,
     "starsToday": 0,
-    "category": "web",
-    "tags": [
-      "self-hosted"
-    ],
-    "language": "PHP",
-    "pushed_at": "2026-06-29T13:59:49Z",
+    "category": "cli",
+    "tags": [],
+    "language": "Rust",
+    "pushed_at": "2026-06-29T17:15:33Z",
     "discovered": "2026-06-30",
-    "source": "topic"
+    "source": "hn"
   },
   {
-    "slug": "santifer-career-ops",
-    "name": "career-ops",
-    "repo": "santifer/career-ops",
-    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
-    "stars": 56735,
+    "slug": "kamaludu-bash4llm",
+    "name": "bash4llm",
+    "repo": "kamaludu/bash4llm",
+    "description": "Bash-first wrapper for Groq’s OpenAI-compatible API. Secure, portable, Termux-friendly. ",
+    "stars": 45,
     "starsToday": 0,
     "category": "cli",
     "tags": [
       "ai-agent",
       "dev-tools",
-      "open-source-alt",
-      "ai-search"
+      "ai-chat"
     ],
-    "language": "JavaScript",
-    "pushed_at": "2026-06-29T19:27:45Z",
+    "language": "Shell",
+    "pushed_at": "2026-06-29T15:35:14Z",
     "discovered": "2026-06-30",
-    "source": "topic"
+    "source": "hn"
+  },
+  {
+    "slug": "DDecoene-WebBaseIII",
+    "name": "WebBaseIII",
+    "repo": "DDecoene/WebBaseIII",
+    "description": "dBASE III is back. In your browser. USE customers like it's 1984.",
+    "stars": 42,
+    "starsToday": 0,
+    "category": "web",
+    "tags": [],
+    "language": "TypeScript",
+    "pushed_at": "2026-06-29T18:50:47Z",
+    "discovered": "2026-06-30",
+    "source": "hn"
+  },
+  {
+    "slug": "doordash-oss-agentic-orchestrator",
+    "name": "agentic-orchestrator",
+    "repo": "doordash-oss/agentic-orchestrator",
+    "description": "Show HN: Agentic Orchestrator, a TUI for long-running coding agents",
+    "stars": 35,
+    "starsToday": 0,
+    "category": "cli",
+    "tags": [],
+    "language": "Go",
+    "pushed_at": "2026-06-29T20:36:58Z",
+    "discovered": "2026-06-30",
+    "source": "hn"
+  },
+  {
+    "slug": "youssefnoob003-SindriKit",
+    "name": "SindriKit",
+    "repo": "youssefnoob003/SindriKit",
+    "description": "A foundational C library for building operationally credible offensive capabilities",
+    "stars": 31,
+    "starsToday": 0,
+    "category": "web",
+    "tags": [],
+    "language": "C",
+    "pushed_at": "2026-06-29T18:31:55Z",
+    "discovered": "2026-06-30",
+    "source": "hn"
+  },
+  {
+    "slug": "azhakhan-dribble",
+    "name": "dribble",
+    "repo": "azhakhan/dribble",
+    "description": "AI-powered, open source IDE for Databases",
+    "stars": 15,
+    "starsToday": 0,
+    "category": "web",
+    "tags": [
+      "ai-coding"
+    ],
+    "language": "TypeScript",
+    "pushed_at": "2026-06-30T00:07:17Z",
+    "discovered": "2026-06-30",
+    "source": "hn"
+  },
+  {
+    "slug": "neospe-autofit2",
+    "name": "autofit2",
+    "repo": "neospe/autofit2",
+    "description": "Automated end-to-end data preprocessing, model training, and evaluation pipeline",
+    "stars": 15,
+    "starsToday": 0,
+    "category": "cli",
+    "tags": [],
+    "language": "Python",
+    "pushed_at": "2026-06-03T14:52:34Z",
+    "discovered": "2026-06-30",
+    "source": "hn"
+  },
+  {
+    "slug": "dogtorjonah-context-warp-drive",
+    "name": "context-warp-drive",
+    "repo": "dogtorjonah/context-warp-drive",
+    "description": "Show HN: Context Warp Drive – deterministic folding for LLM agents",
+    "stars": 11,
+    "starsToday": 0,
+    "category": "web",
+    "tags": [],
+    "language": "TypeScript",
+    "pushed_at": "2026-06-30T02:22:27Z",
+    "discovered": "2026-06-30",
+    "source": "hn"
   }
 ]
