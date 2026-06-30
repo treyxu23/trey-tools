@@ -10,9 +10,10 @@ export interface Tool {
   tags: string[];
   description: string;
   stars?: number;
+  starsToday?: number;
   added?: string;
   featured?: boolean;
-  source: 'curated' | 'discovered';
+  source: 'curated' | 'discovered' | 'daily' | 'weekly';
 }
 
 const DATA_DIR = resolve(process.cwd(), 'data');

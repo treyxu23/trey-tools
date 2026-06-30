@@ -7,18 +7,21 @@ export interface Props {
   tags: string[];
   stars?: number;
   featured?: boolean;
-  source?: 'curated' | 'discovered';
+  source?: 'curated' | 'discovered' | 'daily' | 'weekly';
+  starsToday?: number;
 }
 
-const { name, repo, description, category, tags, stars, featured, source } = Astro.props;
+const { name, repo, description, category, tags, stars, starsToday, featured, source } = Astro.props;
 const [owner] = repo.split('/');
+const isTrending = source === 'daily' || source === 'weekly';
 ---
 
 <a href={`/trey-tools/tool/${repo.replace('/', '-')}`}
    class="block p-4 rounded-xl border border-zinc-800 bg-zinc-900 hover:border-zinc-700 hover:bg-zinc-800/50 transition-all group">
   <div class="flex items-start justify-between gap-2 mb-2">
     <h3 class="font-semibold text-zinc-100 group-hover:text-white truncate">{name}</h3>
-    {source === 'discovered' && <span class="shrink-0 text-xs px-1.5 py-0.5 rounded bg-zinc-800 text-zinc-500">🤖 发现</span>}
+    {isTrending && <span class="shrink-0 text-xs px-1.5 py-0.5 rounded bg-red-900/50 text-red-400">🔥 趋势</span>}
+    {source === 'discovered' && !isTrending && <span class="shrink-0 text-xs px-1.5 py-0.5 rounded bg-zinc-800 text-zinc-500">🤖 发现</span>}
     {featured && <span class="shrink-0 text-xs px-1.5 py-0.5 rounded bg-amber-900/50 text-amber-400">精选</span>}
   </div>
 
@@ -27,6 +30,7 @@ const [owner] = repo.split('/');
   <div class="flex items-center gap-2 text-xs text-zinc-500">
     <span class="font-mono text-zinc-600">{repo}</span>
     {stars != null && <span>⭐ {stars >= 1000 ? `${(stars / 1000).toFixed(1)}k` : stars}</span>}
+    {starsToday != null && starsToday > 0 && <span class="text-red-400">+{starsToday} today</span>}
   </div>
 
   <div class="flex flex-wrap gap-1 mt-2">

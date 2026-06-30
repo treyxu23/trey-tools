@@ -6,7 +6,8 @@ import { getAllTools, getFeaturedTools, getDiscoveredTools, filterByTags } from 
 
 const allTools = getAllTools();
 const featured = getFeaturedTools();
-const discovered = getDiscoveredTools();
+const trending = allTools.filter(t => t.source === 'daily' || t.source === 'weekly').slice(0, 6);
+const discovered = getDiscoveredTools().filter(t => t.source !== 'daily' && t.source !== 'weekly');
 const tagParam = Astro.url.searchParams.get('tags') || '';
 const selectedTags = tagParam ? tagParam.split(',').filter(Boolean) : [];
 const filtered = selectedTags.length ? filterByTags(allTools, selectedTags) : allTools;
@@ -37,6 +38,16 @@ const filtered = selectedTags.length ? filterByTags(allTools, selectedTags) : al
             <h2 class="text-lg font-semibold mb-4 text-amber-400">⭐ 精选推荐</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
               {featured.map(tool => <ToolCard {...tool} />)}
+            </div>
+          </section>
+        )}
+
+        <!-- Trending -->
+        {trending.length > 0 && (
+          <section class="mb-10">
+            <h2 class="text-lg font-semibold mb-4 text-red-400">🔥 今日趋势</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+              {trending.map(tool => <ToolCard {...tool} />)}
             </div>
           </section>
         )}
