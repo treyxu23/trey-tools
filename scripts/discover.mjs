@@ -281,14 +281,16 @@ async function main() {
     });
   }
 
-  // 混合排序：Trending 项目加权提升
-  tools.sort((a, b) => {
-    const scoreA = a.stars + (a.starsToday || 0) * 100;
-    const scoreB = b.stars + (b.starsToday || 0) * 100;
-    return scoreB - scoreA;
-  });
+  // 混合排序：Trending 和 Topic 分开取，保证 Trending 可见
+  const trendingTools = tools.filter(t => t.source === 'daily' || t.source === 'weekly');
+  const topicTools = tools.filter(t => t.source !== 'daily' && t.source !== 'weekly');
 
-  const top = tools.slice(0, 100);
+  // 各自组内排序
+  trendingTools.sort((a, b) => b.stars - a.stars);
+  topicTools.sort((a, b) => b.stars - a.stars);
+
+  // 取 top 70 topic + top 30 trending，合并
+  const top = [...topicTools.slice(0, 70), ...trendingTools.slice(0, 30)];
 
   if (!existsSync(DATA_DIR)) {
     mkdirSync(DATA_DIR, { recursive: true });
