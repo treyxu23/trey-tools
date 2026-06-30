@@ -20,7 +20,7 @@
     "name": "superpowers",
     "repo": "obra/superpowers",
     "description": "An agentic skills framework & software development methodology that works.",
-    "stars": 241981,
+    "stars": 241983,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -36,7 +36,7 @@
     "name": "ECC",
     "repo": "affaan-m/ECC",
     "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "stars": 223693,
+    "stars": 223697,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -55,7 +55,7 @@
     "name": "hermes-agent",
     "repo": "NousResearch/hermes-agent",
     "description": "The agent that grows with you",
-    "stars": 206090,
+    "stars": 206093,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -64,7 +64,7 @@
       "ai-chat"
     ],
     "language": "Python",
-    "pushed_at": "2026-06-30T10:38:02Z",
+    "pushed_at": "2026-06-30T10:42:27Z",
     "discovered": "2026-06-30",
     "source": "topic"
   },
@@ -80,7 +80,7 @@
       "ai-coding"
     ],
     "language": "C++",
-    "pushed_at": "2026-06-30T10:39:04Z",
+    "pushed_at": "2026-06-30T10:41:47Z",
     "discovered": "2026-06-30",
     "source": "topic"
   },
@@ -99,7 +99,7 @@
       "self-hosted"
     ],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T10:35:38Z",
+    "pushed_at": "2026-06-30T10:43:22Z",
     "discovered": "2026-06-30",
     "source": "topic"
   },
@@ -229,7 +229,7 @@
     "name": "markitdown",
     "repo": "microsoft/markitdown",
     "description": "Python tool for converting files and office documents to Markdown.",
-    "stars": 161502,
+    "stars": 161504,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -278,7 +278,7 @@
     "name": "dify",
     "repo": "langgenius/dify",
     "description": "Production-ready platform for agentic workflow development.",
-    "stars": 147096,
+    "stars": 147097,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -287,7 +287,7 @@
       "ai-chat"
     ],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T10:38:56Z",
+    "pushed_at": "2026-06-30T10:39:13Z",
     "discovered": "2026-06-30",
     "source": "topic"
   },
@@ -296,7 +296,7 @@
     "name": "open-webui",
     "repo": "open-webui/open-webui",
     "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-    "stars": 143524,
+    "stars": 143525,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -314,7 +314,7 @@
     "name": "firecrawl",
     "repo": "firecrawl/firecrawl",
     "description": "The API to search, scrape, and interact with the web at scale. 🔥",
-    "stars": 141802,
+    "stars": 141803,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -332,7 +332,7 @@
     "name": "system-prompts-and-models-of-ai-tools",
     "repo": "x1xhlol/system-prompts-and-models-of-ai-tools",
     "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
-    "stars": 141346,
+    "stars": 141347,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -349,7 +349,7 @@
     "name": "langchain",
     "repo": "langchain-ai/langchain",
     "description": "The agent engineering platform.",
-    "stars": 140564,
+    "stars": 140565,
     "starsToday": 0,
     "category": "library",
     "tags": [
@@ -400,7 +400,7 @@
     "name": "spec-kit",
     "repo": "github/spec-kit",
     "description": "💫 Toolkit to help you get started with Spec-Driven Development",
-    "stars": 116543,
+    "stars": 116545,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -561,7 +561,7 @@
     "name": "LLMs-from-scratch",
     "repo": "rasbt/LLMs-from-scratch",
     "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
-    "stars": 98194,
+    "stars": 98195,
     "starsToday": 0,
     "category": "web",
     "tags": [
@@ -613,7 +613,7 @@
     "name": "MoneyPrinterTurbo",
     "repo": "harry0703/MoneyPrinterTurbo",
     "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
-    "stars": 94341,
+    "stars": 94342,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -648,7 +648,7 @@
     "name": "TradingAgents",
     "repo": "TauricResearch/TradingAgents",
     "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-    "stars": 89898,
+    "stars": 89901,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -713,7 +713,7 @@
     "name": "sherlock",
     "repo": "sherlock-project/sherlock",
     "description": "Hunt down social media accounts by username across social networks",
-    "stars": 85905,
+    "stars": 85904,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -736,7 +736,7 @@
       "self-hosted"
     ],
     "language": "Java",
-    "pushed_at": "2026-06-30T10:36:15Z",
+    "pushed_at": "2026-06-30T10:40:12Z",
     "discovered": "2026-06-30",
     "source": "topic"
   },
@@ -745,7 +745,7 @@
     "name": "vllm",
     "repo": "vllm-project/vllm",
     "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
-    "stars": 84888,
+    "stars": 84889,
     "starsToday": 0,
     "category": "cli",
     "tags": [
@@ -848,7 +848,7 @@
     "category": "mobile",
     "tags": [],
     "language": "Haskell",
-    "pushed_at": "2026-06-30T10:39:00.657Z",
+    "pushed_at": "2026-06-30T10:43:18.605Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -862,7 +862,7 @@
     "category": "web",
     "tags": [],
     "language": "Shell",
-    "pushed_at": "2026-06-30T10:39:00.658Z",
+    "pushed_at": "2026-06-30T10:43:18.606Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -878,7 +878,7 @@
       "ai-search"
     ],
     "language": "Python",
-    "pushed_at": "2026-06-30T10:39:00.658Z",
+    "pushed_at": "2026-06-30T10:43:18.606Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -894,7 +894,7 @@
       "ai-video"
     ],
     "language": "Python",
-    "pushed_at": "2026-06-30T10:39:00.659Z",
+    "pushed_at": "2026-06-30T10:43:18.607Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -908,7 +908,7 @@
     "category": "cli",
     "tags": [],
     "language": "Python",
-    "pushed_at": "2026-06-30T10:39:00.659Z",
+    "pushed_at": "2026-06-30T10:43:18.607Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -922,7 +922,7 @@
     "category": "desktop",
     "tags": [],
     "language": "Swift",
-    "pushed_at": "2026-06-30T10:39:00.658Z",
+    "pushed_at": "2026-06-30T10:43:18.606Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -936,7 +936,7 @@
     "category": "cli",
     "tags": [],
     "language": "Python",
-    "pushed_at": "2026-06-30T10:39:00.658Z",
+    "pushed_at": "2026-06-30T10:43:18.606Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -950,7 +950,7 @@
     "category": "cli",
     "tags": [],
     "language": "Python",
-    "pushed_at": "2026-06-30T10:39:00.658Z",
+    "pushed_at": "2026-06-30T10:43:18.606Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -964,7 +964,7 @@
     "category": "web",
     "tags": [],
     "language": "Shell",
-    "pushed_at": "2026-06-30T10:39:00.659Z",
+    "pushed_at": "2026-06-30T10:43:18.607Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -978,7 +978,7 @@
     "category": "desktop",
     "tags": [],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T10:39:00.659Z",
+    "pushed_at": "2026-06-30T10:43:18.607Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -992,7 +992,7 @@
     "category": "cli",
     "tags": [],
     "language": "Python",
-    "pushed_at": "2026-06-30T10:39:00.658Z",
+    "pushed_at": "2026-06-30T10:43:18.606Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -1006,7 +1006,7 @@
     "category": "web",
     "tags": [],
     "language": "C",
-    "pushed_at": "2026-06-30T10:39:00.659Z",
+    "pushed_at": "2026-06-30T10:43:18.607Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -1020,7 +1020,7 @@
     "category": "web",
     "tags": [],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T10:39:00.658Z",
+    "pushed_at": "2026-06-30T10:43:18.606Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -1034,7 +1034,7 @@
     "category": "cli",
     "tags": [],
     "language": "Python",
-    "pushed_at": "2026-06-30T10:39:00.659Z",
+    "pushed_at": "2026-06-30T10:43:18.607Z",
     "discovered": "2026-06-30",
     "source": "daily"
   },
@@ -1050,7 +1050,7 @@
       "ai-video"
     ],
     "language": "Python",
-    "pushed_at": "2026-06-30T10:39:03.731Z",
+    "pushed_at": "2026-06-30T10:43:21.688Z",
     "discovered": "2026-06-30",
     "source": "weekly"
   },
@@ -1066,7 +1066,7 @@
       "ai-search"
     ],
     "language": "C",
-    "pushed_at": "2026-06-30T10:39:03.731Z",
+    "pushed_at": "2026-06-30T10:43:21.688Z",
     "discovered": "2026-06-30",
     "source": "weekly"
   },
@@ -1080,7 +1080,7 @@
     "category": "web",
     "tags": [],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T10:39:03.731Z",
+    "pushed_at": "2026-06-30T10:43:21.688Z",
     "discovered": "2026-06-30",
     "source": "weekly"
   },
@@ -1094,7 +1094,7 @@
     "category": "cli",
     "tags": [],
     "language": "Go",
-    "pushed_at": "2026-06-30T10:39:03.731Z",
+    "pushed_at": "2026-06-30T10:43:21.688Z",
     "discovered": "2026-06-30",
     "source": "weekly"
   },
@@ -1108,7 +1108,7 @@
     "category": "web",
     "tags": [],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T10:39:03.731Z",
+    "pushed_at": "2026-06-30T10:43:21.688Z",
     "discovered": "2026-06-30",
     "source": "weekly"
   },
@@ -1122,7 +1122,7 @@
     "category": "cli",
     "tags": [],
     "language": "Python",
-    "pushed_at": "2026-06-30T10:39:03.731Z",
+    "pushed_at": "2026-06-30T10:43:21.688Z",
     "discovered": "2026-06-30",
     "source": "weekly"
   },
@@ -1136,7 +1136,7 @@
     "category": "cli",
     "tags": [],
     "language": "Python",
-    "pushed_at": "2026-06-30T10:39:03.731Z",
+    "pushed_at": "2026-06-30T10:43:21.688Z",
     "discovered": "2026-06-30",
     "source": "weekly"
   },
@@ -1150,7 +1150,7 @@
     "category": "mobile",
     "tags": [],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T10:39:03.732Z",
+    "pushed_at": "2026-06-30T10:43:21.688Z",
     "discovered": "2026-06-30",
     "source": "weekly"
   },
@@ -1166,7 +1166,7 @@
       "ai-search"
     ],
     "language": "Python",
-    "pushed_at": "2026-06-30T10:39:03.732Z",
+    "pushed_at": "2026-06-30T10:43:21.689Z",
     "discovered": "2026-06-30",
     "source": "weekly"
   },
@@ -1180,7 +1180,7 @@
     "category": "web",
     "tags": [],
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T10:39:03.732Z",
+    "pushed_at": "2026-06-30T10:43:21.689Z",
     "discovered": "2026-06-30",
     "source": "weekly"
   },
@@ -1194,7 +1194,7 @@
     "category": "cli",
     "tags": [],
     "language": "Python",
-    "pushed_at": "2026-06-30T10:39:03.732Z",
+    "pushed_at": "2026-06-30T10:43:21.689Z",
     "discovered": "2026-06-30",
     "source": "weekly"
   },
@@ -1396,7 +1396,7 @@
     "name": "dribble",
     "repo": "azhakhan/dribble",
     "description": "AI-powered, open source IDE for Databases",
-    "stars": 15,
+    "stars": 16,
     "starsToday": 0,
     "category": "web",
     "tags": [
